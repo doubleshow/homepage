@@ -1,0 +1,81 @@
+author(author) ::= <<
+<span class="author $if (author.me)$ me $endif$">$author.name$</span>
+>>
+
+sectionItem(left,right) ::= <<
+
+	<tr class='sectionItem'>
+		<td class="leftColumn">$left$</td>
+		<td class="rightColumn">$right$</td>
+	</tr>
+	
+>>
+
+publication(id,title,authors,type,venue,year,acceptance,note,abstract,pubmed) ::= <<
+
+	$sectionItem(year, 
+
+		{<a href="publication-$id$.html">
+			<b>$title$</b>, <i>$venue$ $year$</i>. $if (!acceptance.empty)$ [$acceptance$ % acceptance rate] $endif$
+			<br> 		
+			$author(first(authors))$$rest(authors):{ author |, $author(author)$}$.
+			$if (!note.empty)$ <span class="note">$note$</span>$endif$
+		</a>}	
+	)$
+
+>>
+
+
+publication-detail(id,title,authors,type,venue,year,acceptance,note,abstract,pubmed) ::= <<
+
+	$sectionItem("", 
+
+		{
+		<span class="title">$title$</span><br>
+			$first(authors).name$$rest(authors):{ author |, $author.name$}$<br>
+		}	
+	)$
+
+	$sectionItem("", {<i>$venue$</i>})$	
+
+	$sectionItem("Abstract", abstract)$
+	
+	$sectionItem("Pubmed", {<a href=$pubmed$>$pubmed$</a>})$		
+
+>>
+
+
+
+media(year,month,title,source,url) ::= <<
+
+	$sectionItem(
+		{$month$, $year$},	
+		{ 
+			<a href="$url$">
+			<b>$title$</b> by <i>$source$</i><br>
+			</a>		
+		}
+	)$
+
+>>
+
+education(year,institution,degree) ::= << 
+
+	$sectionItem(year,
+		{ 
+			<b>$degree$</b> <br>		
+			$institution$
+		}
+	)$
+>>
+
+service(type,year,description) ::= <<
+
+	$sectionItem(type,
+		{ 
+			<b>$description$</b> $year$
+		}
+	)$		
+
+>>
+
