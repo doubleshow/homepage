@@ -2,6 +2,43 @@ author(author) ::= <<
 <span class="author $if (author.me)$ me $endif$">$author.name$</span>
 >>
 
+bio(id) ::= <<
+
+
+	$sectionItem("",{
+	
+	<div class='text'>
+	I use computer vision to solve usability problems and create novel
+	applications. I research on computer
+	vision and machine learning algorithms to support natural interactions on a GUI desktop 
+	as well as in the physical world. My most notable project is <a href="http://www.sikuli.org/"><b>Sikuli Script</b></a>,
+	a GUI scripting tool using screenshots.
+	Since its release in 2010, it has been
+	<a href='https://launchpad.net/sikuli/+download'>downloaded</a> more than 100,000 times and
+	used by a large community of <a href='https://launchpad.net/sikuli/+topcontributors'>users</a>
+	for a variety of <a href='http://blog.sikuli.org'>purposes</a> such as testing, IT automation, scraping, data transfer, and gaming, 
+	
+	<p>
+	I am currently a post-doc research
+	associate at the <a href='http://www.umd.edu'>University of Maryland</a>. I am mentored by 
+	<a href='http://www.umiacs.umd.edu/~lsd/'>Prof. Larry S. Davis</a> 
+	at the Computer Vision Group and <a href='http://www.cs.umd.edu/~bederson/'>Prof. Ben Bederson</a> at
+	the <a href='http://www.cs.umd.edu/hcil'>Human Computer Interaction Laboratory</a>. I received my Ph.D. from <a href='http://www.mit.edu/'>MIT</a>.
+	My thesis adviser is <a href='http://www.eecs.berkeley.edu/~trevor/'>Prof. Trevor Darrell</a>, who led the <a href='http://groups.csail.mit.edu/vision/vip/'>
+	Vision Interfaces Group</a> 
+      at MIT and is now starting a new computer vision research group at UC Berkeley. I have been working closely with
+      my commitee members  
+      <a href='http://people.csail.mit.edu/rcm/'>Prof. Rob Miller</a>, the head of the <a href='http://groups.csail.mit.edu/uid/'>
+	User Interface Design Group</a>, and <a href='http://people.csail.mit.edu/boris/boris.html'>
+	Dr. Boris Katz</a>, the head of the 
+      <a href='http://groups.csail.mit.edu/infolab/people.rhtml'>InfoLab</a>.
+      
+    </div>
+	}
+	)$ 
+
+>>
+
 sectionItem(left,right) ::= <<
 
 	<tr class='sectionItem'>
@@ -82,12 +119,13 @@ media(year,month,title,source,url) ::= <<
 
 >>
 
-education(year,institution,degree) ::= << 
+education(year,institution,degree,thesis) ::= << 
 
 	$sectionItem(year,
 		{ 
-			<b>$degree$</b> <br>		
-			$institution$
+			<b>$degree$</b>, $institution$
+			<br>
+			$if(!thesis.empty)$Thesis: <i>$thesis$</i>$endif$
 		}
 	)$
 >>
