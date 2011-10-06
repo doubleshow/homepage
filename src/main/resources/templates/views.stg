@@ -11,37 +11,60 @@ sectionItem(left,right) ::= <<
 	
 >>
 
-publication(id,title,authors,type,venue,year,acceptance,note,abstract,pubmed) ::= <<
+publication(id,title,authors,type,venue,year,acceptance,note,abstract,link,figure,caption) ::= <<
 
-	$sectionItem(year, 
+	$sectionItem({$if(!type.empty)$$type$<br>$endif$$year$}, 
 
 		{<a href="publication-$id$.html">
-			<b>$title$</b>, <i>$venue$ $year$</i>. $if (!acceptance.empty)$ [$acceptance$ % acceptance rate] $endif$
+			<b>$title$</b><br>
+			<div class='indent'>
+			<span class='venue'>$venue$</span> $if (!acceptance.empty)$ <span class='acceptance-rate'>- [$acceptance$ % acceptance rate] </span>$endif$
 			<br> 		
 			$author(first(authors))$$rest(authors):{ author |, $author(author)$}$.
 			$if (!note.empty)$ <span class="note">$note$</span>$endif$
+			</div>
 		</a>}	
 	)$
 
 >>
 
 
-publication-detail(id,title,authors,type,venue,year,acceptance,note,abstract,pubmed) ::= <<
+publication-detail(id,title,authors,type,venue,year,acceptance,note,abstract,link,figure,caption) ::= <<
 
-	$sectionItem("", 
-
+	$sectionItem("",
 		{
 		<span class="title">$title$</span><br>
-			$first(authors).name$$rest(authors):{ author |, $author.name$}$<br>
+			$if(figure.empty)$$first(authors).name$$rest(authors):{ author |, $author.name$}$<br>$endif$
 		}	
 	)$
 
-	$sectionItem("", {<i>$venue$</i>})$	
-
-	$sectionItem("Abstract", abstract)$
+	$sectionItem("", {<i>$venue$</i> $year$})$	
 	
-	$sectionItem("Pubmed", {<a href=$pubmed$>$pubmed$</a>})$		
+	$if (!figure.empty)$ 
+		$sectionItem(  
+		{			 
+			$first(authors).name$$rest(authors):{ author |<br> $author.name$}$<br>
+		},
+		{
+			<div style="border:#CCC solid 1px;padding:2px;">
+			<center>
+			<img src=$figure$ class='figure'><br>
+			<div style="width:550px">
+			$caption$
+			</div>
+			</center>
+			</div>
+		
+		}		
+		)$
+			
+	$endif$
 
+	$if (!abstract.empty)$ $sectionItem("Abstract", abstract)$  $endif$
+	
+	$if (!link.empty)$ $sectionItem("Link", {<a href=$link$>[$link$]</a>})$ $endif$		
+
+	$sectionItem("", {<a href=cv.html#publication>[Back to Publication]</a>})$
 >>
 
 
@@ -78,4 +101,63 @@ service(type,year,description) ::= <<
 	)$		
 
 >>
+
+employment(year,institution,title,location) ::= <<
+
+
+	$sectionItem(year,
+		{ 
+			<b>$institution$</b> - $location$<br>		
+			$title$
+		}
+	)$	
+
+>>
+
+project(type,name,year,description) ::= <<
+
+	$sectionItem({ $type$},
+		{ 
+			<b>$name$</b><br>
+			$description$
+		}
+	)$		
+
+>>
+
+teaching(year,role,description,location,students) ::= <<
+
+	$sectionItem(year,
+		{ 
+			<b>$role$</b> $description$ <br>
+			$students$ - <i>$location$</i>
+		}
+	)$		
+
+
+>>
+
+grant(year,role,title,description,amount,pi) ::= <<
+
+	$sectionItem(year,
+		{ 
+			<b>$description$</b> <br>
+			$title$, \$$amount$<br>
+			$role$ (PI: $pi$)
+		}
+	)$	
+
+>>
+
+award(year,title,awarder) ::= <<
+
+	$sectionItem(year,
+		{ 
+			<b>$title$</b> <br>
+			$awarder$
+		}
+	)$	
+
+>>
+
 

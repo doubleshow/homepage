@@ -42,6 +42,31 @@ public class HomepageGenerator
 		}	
 	}
 	
+	static class Section{
+		final private String name;
+		final private File dataFile;
+		
+		public Section(File dataFile){
+			
+			this.dataFile = dataFile;
+			String dataFilename = dataFile.getName().replace(".csv","");			
+			
+			List<String> toks = Lists.newArrayList(Splitter.on('-').split(dataFilename));			
+			if (toks.size() == 1){
+				this.name = toks.get(0);
+			}else if (toks.size() == 2){
+				this.name = toks.get(1);
+			}else
+				this.name = null;
+		}
+		public String getName() {
+			return name;
+		}
+		public File getDataFile(){
+			return dataFile;
+		}
+	}
+	
 //	static class Publication{
 //		final private String title;
 //		final private String type;
@@ -51,8 +76,10 @@ public class HomepageGenerator
 //		
 //	}
 	
-	//private static String docRoot = "src/main/resources/docs";
-	private static String docRoot = "src/main/resources/pilyoung";
+	private static String name = "tomyeh";
+	private static String docRoot = "src/main/resources/docs";
+	
+	//private static String docRoot = "src/main/resources/pilyoung";
 	
 	private static STGroupFile g = new STGroupFile("templates/default.stg", "utf-8", '$', '$');
 	private static STGroupFile v = new STGroupFile("templates/views.stg", "utf-8", '$', '$');
@@ -70,35 +97,33 @@ public class HomepageGenerator
 			}			
 		});
 
-		List<String> sectionNames = Lists.newArrayList();
+		
+		List<Section> sections = Lists.newArrayList();
 		for (File sectionFile : sectionFiles){
-			String sectionName = sectionFile.getName().replace(".csv","");
-			sectionNames.add(sectionName);//f.getName());
+			Section sectionObject = new Section(sectionFile);
+			sections.add(sectionObject);//f.getName());
 		}
 
-		ST sectionMenu = g.getInstanceOf("subMenu").add("items",
-				sectionNames);
+		ST sectionMenu = g.getInstanceOf("sectionMenu").
+		add("pageName",pageName).
+		add("items",sections);
 
 		t.add("subMenu", sectionMenu);
 
 		//g.getInstanceOf(name));
 
 
-		List<ST> sections = Lists.newArrayList();
-		for (File sectionFile : sectionFiles){
-			String sectionName = sectionFile.getName().replace(".csv","");
+		List<ST> sectionTemplates = Lists.newArrayList();
+		for (Section sectionObject : sections){
+			String sectionName = sectionObject.getName();
 						
-			ST section = g.getInstanceOf("section").add("name", sectionName);
+			ST sectionTemplate = g.getInstanceOf("section").add("name", sectionName);
 			
-			//ST section = g.getInstanceOf("section").add("name", sectionName);
 
 			List<ST> sectionItems = Lists.newArrayList();
 
-			//String dataFilename = docRoot + "/" + pageName + "/" + sectionName + "/data.csv";
-			String dataFilename = sectionFile.getCanonicalPath();
-			//System.out.println("Reading " + dataFilename);
-			System.out.println("Generating section: " + sectionName);//dataFilename);
-			CsvReader dataCsvReader = new CsvReader(dataFilename);
+			System.out.println("Generating:" + pageName + "/" + sectionName);
+			CsvReader dataCsvReader = new CsvReader(sectionObject.getDataFile().getAbsolutePath());
 
 			dataCsvReader.readHeaders();
 			dataCsvReader.getHeaders();				
@@ -113,10 +138,6 @@ public class HomepageGenerator
 				ST sectionItemDetail = v.getInstanceOf(sectionName + "-detail");
 				if (sectionItemDetail != null){
 					
-					//ST detailPage = g.getInstanceOf("main");
-					//detailPage.
-					//g.get
-					
 					for (String header : dataCsvReader.getHeaders()){
 						String value = dataCsvReader.get(header);
 						
@@ -124,9 +145,9 @@ public class HomepageGenerator
 							
 							//String value = dataCsvReader.get(header);
 							List<Author> authors = Lists.newArrayList();
-							Iterable<String> authorStrings = Splitter.on(",").trimResults().split(value);
+							Iterable<String> authorStrings = Splitter.on(";").trimResults().split(value);
 							for (String authorString : authorStrings){
-								boolean isMe = authorString.equals("Pilyoung Kim");
+								boolean isMe = authorString.equals("Kim");
 								authors.add(new Author(authorString, isMe));
 							}
 							
@@ -180,6 +201,8 @@ public class HomepageGenerator
 						if (!typeValue.equalsIgnoreCase(currentType)){
 							currentType = typeValue;
 							sectionItem.add(header, typeValue);
+						}else{
+							sectionItem.add(header, "");							
 						}
 						
 					}else if (header.equals("authors")){
@@ -188,15 +211,14 @@ public class HomepageGenerator
 						List<Author> authors = Lists.newArrayList();
 						Iterable<String> authorStrings = Splitter.on(",").trimResults().split(value);
 						for (String authorString : authorStrings){
-							boolean isMe = authorString.equals("Pilyoung Kim");
+							boolean isMe = authorString.equals("Kim");
 							authors.add(new Author(authorString, isMe));
 						}
 						
 						sectionItem.add(header, authors);
 						
 					}else{
-						//sectionItem.
-						//System.out.println(sectionItem.getAttribute(header));
+
 						sectionItem.add(header, dataCsvReader.get(header));
 					}
 				}
@@ -207,14 +229,14 @@ public class HomepageGenerator
 			dataCsvReader.close();
 
 
-			section.add("items", sectionItems);
+			sectionTemplate.add("items", sectionItems);
 
-			sections.add(section);				
+			sectionTemplates.add(sectionTemplate);				
 		}
 
 
 
-		t.add("content", sections);
+		t.add("content", sectionTemplates);
 
 		String htmlString =  t.render();
 
@@ -226,28 +248,26 @@ public class HomepageGenerator
 	public static void main( String[] args ) throws IOException
 	{
 
-		//STGroupFile g = new STGroupFile("templates/default.stg", "utf-8", '$', '$');
-		//STGroup g = new STGroupDir("templates",'$','$');
 		
-		//String name = "tomyeh";
-		String myname = "pilyoung";
+		//String myname = "tomyeh";
+		//String myname = "pilyoung";
 		
 		
 		//ST profile = d.getInstanceOf("tomyeh");
-		ST profile = d.getInstanceOf(myname);
+		ST profile = d.getInstanceOf(name);
 		
-		List<String> rootPages = Lists.newArrayList("about","research","cv");		
+		List<String> pageNames = Lists.newArrayList("about","research","cv");		
 
-		for (String pageName : rootPages){
+		for (String pageName : pageNames){
 			ST t = g.getInstanceOf("main");
-			t.add("title", myname + ":"+pageName);
+			t.add("title", name + ":"+pageName);
 			t.add("profile", profile);
 
 			boolean[] selections = new boolean[]{false,false,false};
-			selections[rootPages.indexOf(pageName)] = true;
+			selections[pageNames.indexOf(pageName)] = true;
 
 			ST topMenu = g.getInstanceOf("topMenu")
-			.add("items", rootPages)
+			.add("items", pageNames)
 			.add("selections", selections);
 			t.add("topMenu", topMenu);
 			renderRootPage(pageName,t);

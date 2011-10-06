@@ -9,13 +9,13 @@ topMenu(items,selections) ::= <<
 
 >>
 
-subMenu(items) ::= <<
+sectionMenu(pageName,items) ::= <<
 
 			<table class="subMenu">
 			<tr>
 			
 			
-			$items:{p | <td><a href="#$p$">$p$</a></td> }$ 
+			$items:{p | <td><a href="$pageName$.html#$p.name$">$p.name$</a></td> }$ 
 			</tr>
 			<tr>
 			</tr>
@@ -40,7 +40,7 @@ section(name, items) ::= <<
 
 	<tr class="sectionItem sectionTitle">
 		<td></td>
-		<td class="rightColumn"><a name=$name$>$name$</a></td>
+		<td class="rightColumn"><br><a name=$name$>$name$</a></td>
 	</tr>
 
 	
