@@ -87,7 +87,7 @@ publication-detail(id,title,authors,type,venue,year,acceptance,note,abstract,lin
 			<center>
 			<img src=$figure$ class='figure'><br>
 			<div style="width:550px">
-			$caption$
+			<span class='caption'>$caption$</span>
 			</div>
 			</center>
 			</div>

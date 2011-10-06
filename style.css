@@ -1,0 +1,121 @@
+		body {
+ 			font-family: 'MyriadProLight', arial,sans-serif;
+		 	font-size: 0.85em;
+			line-height: 1.3em;
+		}
+		table{
+			font-size: 1em;
+			margin:0px;
+			padding:0px;						
+		}
+		a, a:visited, a:hover { color: #000; text-decoration: none; }
+		a:hover { color: #A00; }
+		#leftPanel{
+			text-align:right;
+		}
+		#myname{
+			font-size:1.5em;
+			font-weight:bolder;
+		}
+		.topMenu{
+			text-align:right;
+			font-size:1.0em;
+			border-right:solid 1px;
+			padding-right:5px;
+			border-color:#8f945f;
+			margin-left:8px;
+			width:100px;
+		}
+		.topMenu a:link, .topMenu a{
+			display:block;
+			font-size:1.3em;
+			line-height: 1.2em;
+			text-decoration:none;
+			color:#8f945f;
+		}	
+		.topMenu a.selected{
+			color:#790000;
+			font-weight:bolder;
+		}
+		.subMenu {
+			border-bottom:1px solid;
+			border-color:#555555;
+			margin-left:5px;
+		}
+		.subMenu a, .subMenu a:visited, .subMenu a:hover{
+			padding: 2px;
+			padding-right: 10px;
+			text-decoration:none;
+			color: #555;
+			font-size:1.1em;
+		}
+		.subMenu a:hover{
+			color: #A00;
+		}
+		.content {
+			padding-top: 0px;
+			padding-bottom:15px;
+		}
+		.me {
+			text-decoration:underline;
+		}
+		.note {
+			background-color:#A44;
+			color:white;
+			padding-left:3px;
+			padding-right:3px;	
+		}
+		.title {
+			font-weight:bolder;
+			font-size:1.1em;
+		}
+
+.sectionTitle{
+			padding-top:5px;			
+			padding-bottom:15px;
+	
+}
+.sectionTitle a{
+			text-transform:uppercase;
+			font-size:1.2em;
+			font-weight:bolder;
+			color: #999;
+}
+		
+		.sectionItem .rightColumn{
+			padding-left: 5px;
+			padding-bottom: 5px;
+			width:600px;
+		}
+		.sectionItem .leftColumn{
+			padding-right: 5px;
+			text-align:right;
+			font-size:0.9em;
+			width:120px;	
+			vertical-align:top;
+		}
+		
+.indent {
+	padding-left:10px;
+}
+
+.venue {
+	font-style:italic;
+}
+.venue a:hover{
+	font-style:italic;
+	color: #700;	
+}
+
+.acceptance-rate {
+	font-size: smaller;
+	color: #777;
+}
+
+.caption {
+	font-size:0.9em;
+}
+.text a{
+	font-weight: bolder;
+	color:#790000;
+}
