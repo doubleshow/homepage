@@ -1,0 +1,19 @@
+name: Your New Jekyll Site
+pygments: true
+
+destination: ../homepage-gh
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about.html
+  - title: Publications
+    url: /publications.html
+  - title: Teaching
+    url: /teaching.html
+  - title: Research
+    url: http://lab.sikuli.org 
+    external: true
+    
+

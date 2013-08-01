@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tom Yeh | About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Evan Clemente">
+	
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/glyphicons.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href="css/base.css" rel="stylesheet">
+	<link href="css/blue.css" rel="stylesheet">
+	
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="ico/favicon.png">
+  </head>  
+
+  <body>
+
+	{% include navigation.html %}
+
+	<div id="content">
+	  <div class="container">	
+		<div class="row">
+		  <div class="span3">
+		 	{% include side.html %}
+		  </div>
+		  <div class="span7">
+			{{ content }}
+		  </div>		
+		</div>	
+	  </div>
+	</div>
+
+	<div id="copywrite">
+	  <div class="container">
+	    <div class="row">
+		  <div class="span12">
+		    <p>&copy; 2013 Tom Yeh <span id="totop" class="pull-right">Back to Top <i class="icon-arrow-up icon-white"></i></span></p>			
+		  </div>		  
+		</div>	  
+      </div>	  
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/jqBootstrapValidation.js"></script>
+	<script src="js/bounce.js"></script>	
+
+  </body>
+</html>
