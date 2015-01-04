@@ -1,0 +1,304 @@
+doctype html
+html
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(charset='utf-8')
+    title Tom Yeh | Assistant Professor | University of Coloardo at Boulder
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='icon', href='favicon.ico', type='image/x-icon')
+    |  
+    link(href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Muli:300,400,400italic,300italic|Roboto+Condensed:300italic,400italic,700italic,400,700,300', rel='stylesheet', type='text/css')
+    // Font awesome
+    link(href='//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css', rel='stylesheet')
+    // <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    // Bootstrap
+    link(href='css/bootstrap.min.css', rel='stylesheet', media='all')
+    // Animate
+    link(href='css/animate.css', rel='stylesheet', media='screen')
+    // Flexslider
+    link(href='css/flexslider.css', rel='stylesheet', media='screen')
+    // Style
+    link(href='css/style.css', rel='stylesheet', media='all')
+    // Color
+    link(href='css/color.css', rel='stylesheet', media='screen')
+    script(type='text/javascript', src='js/modernizr.custom.js')
+        
+  body#home(data-spy='scroll', data-target='#nav')
+    // Lightbox
+    .lightbox
+    // Background
+    .bg-left
+    .bg-right
+    // Wrap all page content here
+    #wrap
+      //
+        NAVIGATION
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      .navbar-default
+        .container
+          .col-md-3
+            img(src='img/logo.png', style='float:left; padding-top: 20px;')
+            |         
+            a.brand.my-name(href='#about')
+              | Tom
+              br
+              span Yeh
+          // /.col-md-3
+          .col-md-9
+            .navbar-header
+              button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+                span.icon-bar
+                |  
+                span.icon-bar
+                |  
+                span.icon-bar
+            |         
+            .collapse.navbar-collapse
+              ul#nav.nav.navbar-nav
+                li.active
+                  a(href='#about') About me           
+                li
+                  a(href='#research') Research
+                li
+                  a(href='#teaching') Teaching
+                li
+                  a(href='#grant') Grants
+                li
+                  a(href='#award') Awards
+                li
+                  a(href='#education') Education
+
+      //- JUMBOTRON PERSON DETAILS
+      #about.jumbotron
+        .container
+          .row
+            .col-md-3
+              img(src='img/portrait.jpg', width='228', alt='Tom Yeh')
+            .col-md-6.card              
+              h1 Tom Yeh
+              h2 Assistant Professor
+              h4 Department of Computer Science
+              h4 University of Colorado at Boulder
+            .col-md-2
+              address
+                p
+                  i.fa.fa-envelope
+                  | &nbsp; 
+                  a(href='mailto:tom.yeh@colorado.edu')  tom.yeh@colorado.edu
+                p
+                  i.fa.fa-globe
+                  | &nbsp; 
+                  a(href='http://tomyeh.info')  tomyeh.info 
+                p
+                  i.fa.fa-google
+                  | &nbsp; 
+                  a(href='http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en') Google Scholar
+                p
+                  i.fa.fa-download
+                  | &nbsp; 
+                  a(href='#')  Download CV
+      //
+        MESSAGE
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      section#message.message.section
+        .td1  
+        .container
+          h2
+            | Research and teach HCI issues with societal impacts. Promote emergent literacy for blind children using 3D printing. Study Android apps using Big Data. Automate GUIs using computer vision.
+      //
+        RESEARCH
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      section#research.portfolio.section.grey
+        .td1.td2
+        .container
+          .header
+            h2 Research
+            ul#filters.subnavigation
+              li.active
+                a(href='#', data-filter='*') show all
+                span.bull &bull;
+              li
+                a(href='#', data-filter='.book', title='Projects in Development')  Tactile Picture
+                span.bull &bull;
+              li
+                a(href='#', data-filter='.bigdata', title='Projects in Graphic Design')  Big Data
+                span.bull &bull;
+              li
+                a(href='#', data-filter='.sikuli', title='Projects in photography')  Sikuli              
+                
+          #container.container-portfolio
+            each group in contents.projects
+                each project in group
+                    .col-md-4.element(class=project.metadata.group)
+                      .item-content                        
+                        .img
+                          a.open-popup(href=project.metadata.url)
+                            img.attachment-project-thumb.wp-post-image(width='283', src='img/' + project.metadata.image, alt='background4')
+                          .img-hover
+                            a(href=project.metadata.url) Read More                        
+                        .txt
+                          h4
+                            a(href=project.metadata.url)= project.metadata.title             
+                          p= project.metadata.tagline
+            
+      //
+        TEACHING
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      section#teaching.portfolio.section
+        .td1
+        |     
+        .container
+          .header
+            h2 Teaching
+            //
+              <ul class="subnavigation" id="filters" >
+              <li class="active"><a href="#" data-filter="*">show all</a> <span class="bull">&bull;</span></li>
+              <li><a href="#" data-filter=".web" title="Projects in Development"> Sikuli</a> <span class="bull">&bull;</span></li>
+              <li><a href="#" data-filter=".graphic" title="Projects in Graphic Design"> Tactile Pictures</a> <span class="bull">&bull;</span></li>
+              <li><a href="#" data-filter=".photography" title="Projects in photography"> Big Data</a></li>
+              </ul>
+          |       
+          #container1.container-portfolio
+            .col-md-4.element.web
+              .item-content
+                .img
+                  img.attachment-project-thumb.wp-post-image(width='283', src='img/bigdatahci.jpg', alt='background4')
+                  // <div class="img-hover"> <a href="project.html" class="open-popup">Read More </a></div>
+                |             
+                .txt
+                  h4 Big Data &amp; HCI
+                  |               
+                  p
+                    ul
+                      li
+                        | Fall 2014 
+                        a.more(href='http://csci-4830-002-2014.github.io/') webpage
+                      |                 
+                      li
+                        | Fall 2013 
+                        a.more(href='https://docs.google.com/document/d/1QHvTljR-ND1OHgF4FLHagO96wS-Z9ROtGOX9FKqCIIo/pub') webpage
+                      |                 
+                      li Spring 2013
+                    // <a href="project.html" class="open-popup more">Coming Soon </a></p>
+                // /.txt
+              // /.item-content
+            // /.col-md-4
+            .col-md-4.element.web
+              .item-content
+                .img
+                  img.attachment-project-thumb.wp-post-image(width='283', src='img/hcihackathons.jpg', alt='background4')
+                |             
+                .txt
+                  h4 HCI Hackathons
+                  |               
+                  ul
+                    li
+                      | Spring 2014 
+                      a.more(href='http://rapidprototype.wpengine.com/') webpage
+                // /.txt
+              // /.item-content
+            // /.col-md-4
+            .col-md-4.element.web
+              .item-content
+                .img
+                  img.attachment-project-thumb.wp-post-image(width='283', src='img/techadvanceshci.jpg', alt='background4')
+                |             
+                .txt
+                  h4 Technical Advances in HCI
+                  |               
+                  ul
+                    li Fall 2012
+                // /.txt
+              // /.item-content
+            // /.col-md-4
+      // /.teaching
+      
+      //
+        GRANTS
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      section#grant.timeline.section.removepadding.grey
+        .td1.td3
+        |     
+        .container
+          .header
+            h2 Grants
+          |   
+          each grant in contents['grants.json'].metadata  
+            .row  
+                .col-md-3= grant.years
+                .col-md-9
+                  h3
+                    span= grant.source + " "
+                    span= grant.program  + " "                  
+                    span.bull &bull;
+                    span.role= grant.role
+                  h4= grant.title
+      
+      //
+        AWARD
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      section#award.timeline.section
+        .td1
+        .container
+          .header
+            h2 Awards
+          .row
+            .col-md-3  2014 
+            .col-md-9
+              h3 Student Affairs Faculty of the Year
+              h4 University of Coloardo at Boulder              
+              p
+                | The Student Affairs Faculty of the Year Award recognizes a superb faculty member that demonstrates outstanding engagement with students and contributions to the university community based on areas such as promoting diversity or fostering intellectual growth.
+
+
+      //
+        EDUCATION
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      section#education.timeline.section
+        .container
+          .header
+            h2 Education
+          each item in contents['education.json'].metadata
+            .row
+                .col-md-3= item.years
+                .col-md-9
+                    h3= item.name
+                    h4= item.org
+
+      //
+        PARALLAX
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      section.parallax.section.message
+        .td1.td3
+      
+      //
+        FOOTER
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      footer.footer
+        .container
+          i.fa.fa-quote-left
+          |  a picture is worth a thousand words 
+          i.fa.fa-quote-right
+
+    script.
+      //Initialize Bar color
+      var barChangeColor = "khaki";
+      var trackChangeColor = "#eeeeee";
+
+    script(type='text/javascript', src='js/jquery.js')
+    script(type='text/javascript', src='js/jquery.easing.min.js')
+    script(type='text/javascript', src='js/bootstrap.js')
+    script(type='text/javascript', src='js/html5shiv.js')
+    script(type='text/javascript', src='js/excanvas.js')
+    script(type='text/javascript', src='js/jquery.easy-pie-chart.js')
+    script(type='text/javascript', src='js/jquery.isotope.min.js')
+    script(type='text/javascript', src='js/imagesloaded.js')
+    script(type='text/javascript', src='js/jquery.flexslider-min.js')
+    script(type='text/javascript', src='js/jquery.inview.js')
+    script(type='text/javascript', src='js/jquery.nicescroll.js')
+    script(type='text/javascript', src='js/jquery.parallax.js')      
+    script(type='text/javascript', src='js/jquery.fitvids.js')
+
+    script(type='text/javascript', src='js/scripts.js')

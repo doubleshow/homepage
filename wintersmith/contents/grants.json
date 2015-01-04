@@ -1,0 +1,43 @@
+[{
+    "source": "DARPA",
+    "program": "MUSE",
+    "title": "Mining and Understanding Bug Fixes to Address Application-Framework Protocol Defects",
+    "role": "Co-PI",
+    "years": "2014-2018"
+}, {
+    "source": "NSF",
+    "program": "EAGER",
+    "title": "Computational Model for Evaluating the Quality of Citizen Science Contributions",
+    "role": "Co-PI",
+    "years": "2014-2015"
+}, {
+    "source": "CU",
+    "program": "Outreach Award",
+    "title": "Computational Model for Evaluating the Quality of Citizen Science Contributions",
+    "role": "Co-PI",
+    "years": "2013-2014"
+}, {
+    "source": "DARPA",
+    "program": "APAC",
+    "title": "Specialized Binary Analysis for Vetting Android Apps Using GUI Logic",
+    "role": "Co-PI",
+    "years": "2013-2015"    
+}, {
+    "source": "CU",
+    "program": "Diversity and Excellence Grant",
+    "title": "Broadening Participation of Blind Students in Computer Science at CU through Scalable Game Design",
+    "role": "PI",
+    "years": "2012-2013"      
+}, {
+    "source": "DARPA",
+    "program": "Acitve Authentication",
+    "title": "Screen/Visual Fingerprint for Active Authentication",
+    "role": "Co-PI",
+    "years": "2012-2014"     
+}, {
+    "source": "NSF",
+    "program": "VOSS",
+    "title": "Crowdsourcing Interaction Design for Citizen Science Virtual Organizations",
+    "role": "Co-PI",
+    "years": "2012-2014"                  
+}]
