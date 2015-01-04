@@ -26,4 +26,4 @@ In _wintersmith/_
 
 To deploy, run the subtree push command from the root directory:
 
-	$ git subtree push --prefix build origin gh-pages
+	$ git subtree push --prefix wintersmith/build origin gh-pages
