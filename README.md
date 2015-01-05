@@ -21,6 +21,10 @@ In _wintersmith/_
 In _wintersmith/_
 
 	$ wintersmith build
+
+Commit the build
+
+	$ git commit -a -m 'commit message'
 	
 # Deploy
 
