@@ -98,7 +98,7 @@ html
                 p
                   i.fa.fa-download
                   | &nbsp; 
-                  a(href='#')  Download CV
+                  a(href='cv.html') CV
       //
         MESSAGE
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -227,7 +227,7 @@ html
           |   
           each grant in contents['grants.json'].metadata  
             .row  
-                .col-md-3= grant.years
+                .col-md-3= grant.start + ' - ' + grant.end
                 .col-md-9
                   h3
                     span= grant.source + " "
@@ -262,7 +262,7 @@ html
             h2 Education
           each item in contents['education.json'].metadata
             .row
-                .col-md-3= item.years
+                .col-md-3= item.start + ' - ' + item.end
                 .col-md-9
                     h3= item.name
                     h4= item.org

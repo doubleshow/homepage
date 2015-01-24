@@ -28,6 +28,13 @@
   "student": "29"
  },
  {
+  "year": "2015",
+  "type": "course",
+  "title": "Information Retrieval",
+  "role": "instructor",
+  "student": "6"
+ },
+ {
   "year": "2014",
   "type": "course",
   "title": "HCC Big Data",
@@ -131,5 +138,19 @@
   "title": "Computational Thinking Pattern Analysis: A Phenomenological Approach To Compute Computational Thinking",
   "role": "committee member",
   "student": "Kyu Han Koh"
+ },
+ {
+  "year": "2014",
+  "type": "CREU",
+  "title": "Taxonomizing the User-Centered Design Strategies of Online Citizen Science Projects",
+  "role": "advisor",
+  "student": "Emily Bertelson; Sarah Feller"
+ },
+ {
+  "year": "2014",
+  "type": "DLA",
+  "title": "Discovery Learning Apprenticeship",
+  "role": "advisor",
+  "student": "Ian Char; Brennan Mcconnell"
  }
 ]

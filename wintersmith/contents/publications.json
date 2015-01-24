@@ -12,13 +12,37 @@
  {
   "year": "2015",
   "authors": [
+   "Mike Skirpan",
+   " Tom Yeh"
+  ],
+  "title": "Beyond the Flipped Classroom: Learning by Doing Through Challenges and Hack-a-thons",
+  "venue": "SIGSCE",
+  "type": "Full Paper"
+ },
+ {
+  "year": "2015",
+  "authors": [
    "Jeeeun Kim",
    " Hyunjoo Oh",
    " Tom Yeh"
   ],
   "title": "A Study to Empower Children to Design Movable Tactile Pictures for Children with Visual Impairments",
   "venue": "TEI",
-  "type": "Work-in-Progress"
+  "type": "Work-in-Progress",
+  "url": "http://dl.acm.org/citation.cfm?id=2688815"
+ },
+ {
+  "year": "2015",
+  "authors": [
+   "Patrick Carrington",
+   " Shannon Hosmer",
+   " Tom Yeh",
+   " Amy Hurst",
+   " Shaun Kane"
+  ],
+  "title": "Like This, But Better: Supporting Novices' Design and Fabrication of 3D Models Using Existing Objects",
+  "venue": "iConference",
+  "type": "Full Paper"
  },
  {
   "year": "2014",
@@ -30,7 +54,8 @@
   ],
   "title": "Tactile Picture Books for Young Children with Visual Impairment",
   "venue": "TEI",
-  "type": "Work-in-Progress"
+  "type": "Work-in-Progress",
+  "url": "http://www.tei-conf.org/14/program/413.php"
  },
  {
   "year": "2014",
@@ -40,7 +65,21 @@
   ],
   "title": "Android apps consistency scrutinized",
   "venue": "CHI",
-  "type": "Work-in-Progress"
+  "type": "Work-in-Progress",
+  "url": "http://dl.acm.org/citation.cfm?id=2559206.2581352"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Mike Kasper",
+   " Nikolaus Correll",
+   " Tom Yeh"
+  ],
+  "title": "Abstracting Perception and Manipulation in End-User Robot Programming using Sikuli",
+  "venue": "TePRA",
+  "type": "Full Paper",
+  "venueFull": "IEEE International Conference on Technologies for Practical Robot Applications",
+  "url": "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6869156"
  },
  {
   "year": "2014",
@@ -65,7 +104,8 @@
   ],
   "title": "SikuliBot: Automating Physical User Interface Using Images",
   "venue": "UIST",
-  "type": "Demo"
+  "type": "Demo",
+  "url": "http://dl.acm.org/citation.cfm?id=2659110"
  },
  {
   "year": "2014",
@@ -76,7 +116,8 @@
   ],
   "title": "Using LEGO to Model 3D Tactile Picture Books by Sighted Children for Blind Children",
   "venue": "SUI",
-  "type": "Poster"
+  "type": "Poster",
+  "url": "http://dl.acm.org/citation.cfm?id=2661211&dl=ACM&coll=DL&CFID=460639285&CFTOKEN=15966935"
  },
  {
   "year": "2014",
@@ -87,7 +128,8 @@
   ],
   "title": "Technology to Support Emergent Literacy Skills in Young Children with Visual Impairments",
   "venue": "CHI",
-  "type": "Work-in-Progress"
+  "type": "Work-in-Progress",
+  "url": "http://dl.acm.org/citation.cfm?id=2581341"
  },
  {
   "year": "2014",
@@ -101,7 +143,8 @@
   ],
   "title": "Screen-based active user authentication",
   "venue": "Pattern Recognition Letters",
-  "type": "Journal"
+  "type": "Journal",
+  "url": "http://www.sciencedirect.com/science/article/pii/S0167865514000488"
  },
  {
   "year": "2014",
@@ -111,7 +154,8 @@
   ],
   "title": "NatureNet: a model for crowdsourcing the design of citizen science systems",
   "venue": "CSCW",
-  "type": "Poster"
+  "type": "Poster",
+  "url": "http://dl.acm.org/citation.cfm?id=2556420.2556497"
  },
  {
   "year": "2014",
@@ -122,7 +166,8 @@
   ],
   "title": "3D Printed Tactile Picture Books for Children with Visual Impairments: A Design Probe",
   "venue": "IDC",
-  "type": "Short Paper"
+  "type": "Short Paper",
+  "url": "http://dl.acm.org/citation.cfm?id=2610482"
  },
  {
   "year": "2014",
@@ -137,7 +182,8 @@
   ],
   "title": "Toward a non-intrusive, physio-behavioral biometric for smartphones",
   "venue": "MobileHCI",
-  "type": "Poster"
+  "type": "Poster",
+  "url": "http://dl.acm.org/citation.cfm?doid=2628363.2634223"
  },
  {
   "year": "2014",
@@ -168,5 +214,17 @@
   "venue": "ECSM",
   "type": "Full Paper",
   "venueFull": "European Conference on Social Media"
+ },
+ {
+  "year": "2013",
+  "authors": [
+   "Katharina Reinecke",
+   " Tom Yeh, Luke Miratrix, Rahmatri Mardiko, Yuechen Zhao, Jenny Liu, Krzysztof Z. Gajos"
+  ],
+  "title": "Predicting Users' First Impressions of Website Aesthetics With a Quantification of Perceived Visual Complexity and Colorfulness\", Human Factors in Computing Systems",
+  "venue": "CHI",
+  "type": "Full Paper",
+  "award": "Honorable Mention",
+  "url": "http://dl.acm.org/citation.cfm?id=2481281"
  }
 ]

@@ -15,6 +15,14 @@ In _wintersmith/_
 
 	$ wintersmith preview [-p 8080]
 	
+# CV
+
+In `wintersmith/`
+
+	$ node process.js
+
+It takes `data/cv.xlsx` and generates a bunch of `.json` in `contents/`
+
 	
 # Build
 
@@ -31,3 +39,4 @@ Commit the build
 To deploy, run the subtree push command from the root directory:
 
 	$ git subtree push --prefix wintersmith/build origin gh-pages
+

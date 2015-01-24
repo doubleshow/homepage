@@ -69,3 +69,10 @@ new Parser(src, 'teaching')
     .pipe(concat(function(data) {
         fs.writeFileSync('contents/teaching.json', JSON.stringify(data, null, ' '))
     }))            
+
+new Parser(src, 'press')
+    .recordStream
+    .pipe(toJson())
+    .pipe(concat(function(data) {
+        fs.writeFileSync('contents/press.json', JSON.stringify(data, null, ' '))
+    })) 

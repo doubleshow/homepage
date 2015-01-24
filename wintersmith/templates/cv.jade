@@ -12,7 +12,8 @@ html
 
     section
       .container        
-        h1 Tom Yeh        
+        h1 Tom Yeh    
+        h5 Assistant Professor
         h5 Department of Computer Science
         h5 University of Colorado Boulder
         div Boulder, CO 80309-0430
@@ -56,7 +57,11 @@ html
               br
               div.label.label-default= pub.type
             div.col-md-9  
-              h6= pub.title
+              h6
+                if pub.url
+                  a(href=pub.url)= pub.title
+                else
+                  = pub.title
               div= pub.authors.join(',')  
               br
 
@@ -92,4 +97,20 @@ html
               div.label.label-default= item.student            
             div.col-md-7= item.title
             div.col-md-1= item.role
+
+    section#blog
+      .container        
+        h1 Press
+        for item in contents['press.json'].metadata
+          div.row
+            div.col-md-1= item.date
+            div.col-md-3= item.source
+            
+            div.col-md-8
+              if item.url
+                a(href=item.url)= item.title  
+              else
+                = item.title
+              div.label.label-default= item.type
+              div.label.label-warning= item.country
 
