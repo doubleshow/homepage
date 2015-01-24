@@ -1,0 +1,32 @@
+html
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(charset='utf-8')
+    title Tom Yeh | Assistant Professor | University of Coloardo at Boulder
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+    link(href='booom/css/main.css', rel='stylesheet')    
+    link(href='booom/css/custom.css', rel='stylesheet')
+    
+  body#home
+    section#blog
+      .container        
+        h1 Publications
+        for pub in contents['publications.json'].metadata
+          div.row
+            div.col-md-1= pub.year              
+            div.col-md-2= pub.venue
+            div.col-md-2= pub.type
+            div.col-md-7
+              h6= pub.title
+              div= pub.authors.join(',')
+
+    section#blog
+      .container        
+        h1 Grants
+        for grant in contents['grants.json'].metadata
+          div.row
+            div.col-md-2= grant.start + '-' + grant.end
+            div.col-md-2= grant.source
+            div.col-md-2= grant.program
+            div.col-md-6= grant.title            

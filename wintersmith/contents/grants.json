@@ -1,49 +1,82 @@
-[{
-    "source": "CU",
-    "program": "President's Fund for the Humanities",
-    "title": "Public Tactile Art on Campus: Integrating Art and Engineering to Promote Universal Access",
-    "role": "PI",
-    "years": "2015"
-}, {
-    "source": "DARPA",
-    "program": "MUSE",
-    "title": "Mining and Understanding Bug Fixes to Address Application-Framework Protocol Defects",
-    "role": "Co-PI",
-    "years": "2014-2018"
-}, {
-    "source": "NSF",
-    "program": "EAGER",
-    "title": "Computational Model for Evaluating the Quality of Citizen Science Contributions",
-    "role": "Co-PI",
-    "years": "2014-2015"
-}, {
-    "source": "CU",
-    "program": "Outreach Award",
-    "title": "Computational Model for Evaluating the Quality of Citizen Science Contributions",
-    "role": "Co-PI",
-    "years": "2013-2014"
-}, {
-    "source": "DARPA",
-    "program": "APAC",
-    "title": "Specialized Binary Analysis for Vetting Android Apps Using GUI Logic",
-    "role": "Co-PI",
-    "years": "2013-2015"
-}, {
-    "source": "CU",
-    "program": "Diversity and Excellence Grant",
-    "title": "Broadening Participation of Blind Students in Computer Science at CU through Scalable Game Design",
-    "role": "PI",
-    "years": "2012-2013"
-}, {
-    "source": "DARPA",
-    "program": "Acitve Authentication",
-    "title": "Screen/Visual Fingerprint for Active Authentication",
-    "role": "Co-PI",
-    "years": "2012-2014"
-}, {
-    "source": "NSF",
-    "program": "VOSS",
-    "title": "Crowdsourcing Interaction Design for Citizen Science Virtual Organizations",
-    "role": "Co-PI",
-    "years": "2012-2014"
-}]
+[
+ {
+  "role": "PI",
+  "title": "Adaptive Tactile Picture Books for Blind Children during Emergent Literacy",
+  "source": "NSF",
+  "program": "CAREER",
+  "start": "2015",
+  "end": "2020"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Innovations in Development: Community-Driven Projects That Adapt Technology for Environmental Learning in Nature Preserves",
+  "source": "NSF",
+  "program": "AISL",
+  "start": "2015",
+  "end": "2018"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Mining and Understanding Bug Fixes to Address Application-Framework Protocol Defects",
+  "source": "DARPA",
+  "program": "MUSE",
+  "start": "2014",
+  "end": "2018"
+ },
+ {
+  "role": "PI",
+  "title": "Computational Model for Evaluating the Quality of Citizen Science Contributions",
+  "source": "NSF",
+  "program": "EAGER",
+  "start": "2014",
+  "end": "2015"
+ },
+ {
+  "role": "PI",
+  "title": "Public Tactile Art on Campus: Integrating Art and Engineering to Promote Universal Access",
+  "source": "CU",
+  "program": "President's Fund for the Humanities",
+  "start": "2014",
+  "end": "2015"
+ },
+ {
+  "role": "PI",
+  "title": "Teaching 3D Printing to the Teachers and Parents of Blind Children",
+  "source": "CU",
+  "program": "Outreach Award",
+  "start": "2013",
+  "end": "2014"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Specialized Binary Analysis for Vetting Android Apps Using GUI Logic",
+  "source": "DARPA",
+  "program": "APAC",
+  "start": "2013",
+  "end": "2015"
+ },
+ {
+  "role": "PI",
+  "title": "Broadening Participation of Blind Students in Computer Science at CU through Scalable Game Design",
+  "source": "CU",
+  "program": "Diversity and Excellence Grant",
+  "start": "2012",
+  "end": "2013"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Screen/Visual Fingerprint for Active Authentication",
+  "source": "DARPA",
+  "program": "Active Authentication",
+  "start": "2012",
+  "end": "2014"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Crowdsourcing Interaction Design for Citizen Science Virtual Organizations",
+  "source": "NSF",
+  "program": "VOSS",
+  "start": "2012",
+  "end": "2014"
+ }
+]

@@ -1,8 +1,11 @@
 {
   "dependencies": {
+    "concat-stream": "^1.4.7",
     "moment": "2.3.x",
-    "underscore": "1.4.x",
-    "typogr": "0.5.x"
+    "parse-xlsx": "0.0.6",
+    "through2": "^0.6.3",
+    "typogr": "0.5.x",
+    "underscore": "1.4.x"
   },
   "repository": "none"
 }
