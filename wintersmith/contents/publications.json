@@ -1,0 +1,172 @@
+[
+ {
+  "year": "2014",
+  "authors": [
+   "Jeeeun Kim",
+   " Abigale Stangl",
+   " Ann Eisenberg",
+   " Tom Yeh"
+  ],
+  "title": "Tactile Picture Books for Young Children with Visual Impairment",
+  "venue": "TEI",
+  "type": "Work-in-Progress"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Khalid Alharbi",
+   " Sam Blackshear, Emily Kowalczyk, Atif M Memon, Bor-Yuh Evan Chang, Tom Yeh"
+  ],
+  "title": "Android apps consistency scrutinized",
+  "venue": "CHI",
+  "type": "Work-in-Progress"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Jeeeun Kim",
+   " Abigale Stangl",
+   " Ann Eisenberg",
+   " Tom Yeh"
+  ],
+  "title": "Evaluating Tactile User Experience with Tactile Picture Books for Children with Visual Impairment",
+  "venue": "CHI",
+  "type": "Workshop",
+  "venueFull": "\"Touch Me\" - Tactile Evaluation Methods Workshop"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Jeeeun Kim",
+   " Mike Kasper",
+   " Tom Yeh",
+   " Nikolaus Correll"
+  ],
+  "title": "SikuliBot: Automating Physical User Interface Using Images",
+  "venue": "UIST",
+  "type": "Demo"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Jeeeun Kim",
+   " Abigale Stangl",
+   " Tom Yeh"
+  ],
+  "title": "Using LEGO to Model 3D Tactile Picture Books by Sighted Children for Blind Children",
+  "venue": "SUI",
+  "type": "Poster"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Abigale Stangl",
+   " Jeeeun Kim",
+   " Tom Yeh"
+  ],
+  "title": "Technology to Support Emergent Literacy Skills in Young Children with Visual Impairments",
+  "venue": "CHI",
+  "type": "Work-in-Progress"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Mohammed E Fathy",
+   " Vishal M Patel",
+   " Tom Yeh",
+   " Yangmuzi Zhang",
+   " Rama Chellappa",
+   " Larry S Davis"
+  ],
+  "title": "Screen-based active user authentication",
+  "venue": "Pattern Recognition Letters",
+  "type": "Journal"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Mary Lou Maher",
+   " Jenny Preece, Tom Yeh, Carol Boston, Kazjon Grace, Abhijit Pasupuleti, Abigale Stangl"
+  ],
+  "title": "NatureNet: a model for crowdsourcing the design of citizen science systems",
+  "venue": "CSCW",
+  "type": "Poster"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Abigale Stangl",
+   " Jeeeun Kim",
+   " Tom Yeh"
+  ],
+  "title": "3D Printed Tactile Picture Books for Children with Visual Impairments: A Design Probe",
+  "venue": "IDC",
+  "type": "Short Paper"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Esther Vasiete",
+   " Yan Chen",
+   " Ian Char",
+   " Tom Yeh",
+   " Vishal Patel",
+   " Larry Davis",
+   " Rama Chellappa"
+  ],
+  "title": "Toward a non-intrusive, physio-behavioral biometric for smartphones",
+  "venue": "MobileHCI",
+  "type": "Poster"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Kazjon Grace",
+   " Mary Lou Maher",
+   " Jenny Preece",
+   " Tom Yeh",
+   " Abigale Stangl",
+   " Carol Boston"
+  ],
+  "title": "A process model for crowdsourcing design: A case study in citizen science",
+  "venue": "DCC",
+  "type": "Full Paper",
+  "venueFull": "Design Computing and Cognition"
+ },
+ {
+  "year": "2014",
+  "authors": [
+   "Jenny Preece",
+   " Kazjon Grace",
+   " Carol Boston",
+   " Mary Lou Maher",
+   " Tom Yeh",
+   " Abigale Stangl"
+  ],
+  "title": "Crowdsourcing Design and Citizen Science Data using a tabletop in a nature preserve",
+  "venue": "ECSM",
+  "type": "Full Paper",
+  "venueFull": "European Conference on Social Media"
+ },
+ {
+  "year": "2015",
+  "authors": [
+   "Jeeeun Kim",
+   " Tom Yeh"
+  ],
+  "title": "Toward 3D-Printed Movable Tactile Pictures for Children with Visual Impairments",
+  "venue": "CHI",
+  "type": "Full Paper"
+ },
+ {
+  "year": "2015",
+  "authors": [
+   "Jeeeun Kim",
+   " Hyunjoo Oh",
+   " Tom Yeh"
+  ],
+  "title": "A Study to Empower Children to Design Movable Tactile Pictures for Children with Visual Impairments",
+  "venue": "TEI",
+  "type": "Work-in-Progress"
+ }
+]
