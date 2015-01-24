@@ -23,30 +23,37 @@
  {
   "year": "2015",
   "type": "course",
-  "title": "User-Centered Design and Development II",
+  "title": "User-Centered Design and Development II (Spring)",
   "role": "instructor",
   "student": "29"
  },
  {
   "year": "2015",
   "type": "course",
-  "title": "Information Retrieval",
+  "title": "Information Retrieval (Spring)",
   "role": "instructor",
   "student": "6"
  },
  {
   "year": "2014",
   "type": "course",
-  "title": "HCC Big Data",
+  "title": "HCC Big Data (Fall)",
   "role": "instructor",
   "student": "23"
  },
  {
   "year": "2014",
   "type": "course",
-  "title": "Rapid Prototyping",
+  "title": "Rapid Prototyping (Spring)",
   "role": "instructor",
   "student": "32"
+ },
+ {
+  "year": "2014",
+  "type": "senior thesis",
+  "title": "AcesUp: Crashing Libraries with Mocks",
+  "role": "committee member",
+  "student": "Nick Vanderweit"
  },
  {
   "year": "2014",
@@ -89,6 +96,13 @@
   "title": "Precise Assembly of Truss Structures by Distributed Robots",
   "role": "committee member",
   "student": "Erik Komendera"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis defense",
+  "title": "Embodied Fabrication:Body-Centric Devices for Novice Designers",
+  "role": "committee member",
+  "student": "Ben Leduc-Mills"
  },
  {
   "year": "2014",
@@ -152,5 +166,96 @@
   "title": "Discovery Learning Apprenticeship",
   "role": "advisor",
   "student": "Ian Char; Brennan Mcconnell"
+ },
+ {
+  "year": "2013",
+  "type": "course",
+  "title": "HCC Big Data (Spring)",
+  "role": "instructor",
+  "student": "15"
+ },
+ {
+  "year": "2013",
+  "type": "course",
+  "title": "HCC Big Data (Fall)",
+  "role": "instructor",
+  "student": "16"
+ },
+ {
+  "year": "2013",
+  "type": "PhD thesis defense",
+  "title": "Integrated Information Modeling of Construction Project Productivity",
+  "role": "committee member",
+  "student": "Yongwei Shan"
+ },
+ {
+  "year": "2013",
+  "type": "PhD thesis defense",
+  "title": "Socio-Technical Frameworks and Systems that Motivate People to Reduce Their Energy Consumption",
+  "role": "committee member",
+  "student": "Holger Dick"
+ },
+ {
+  "year": "2013",
+  "type": "MS thesis defense",
+  "title": "Synapsage: Crowd-sourced Lecture Recording using Smartphones",
+  "role": "advisor",
+  "student": "Houman Farokhzad"
+ },
+ {
+  "year": "2013",
+  "type": "MS thesis defense",
+  "title": "Using Attentional Highlighting to Train Visual Expertise",
+  "role": "committee member",
+  "student": "Brett Roads"
+ },
+ {
+  "year": "2013",
+  "type": "PhD thesis proposal",
+  "title": "Utilizing a Socio-technical System to Foster and Support Mindfulness to Engender Persistent Pro-Environmental Behaviors",
+  "role": "committee member",
+  "student": "Jason Zietz"
+ },
+ {
+  "year": "2013",
+  "type": "PhD thesis defense",
+  "title": "Visual Odometry with minimally overlapped trinocular cameras",
+  "role": "committee member",
+  "student": "Jaeheon Jeong"
+ },
+ {
+  "year": "2013",
+  "type": "PhD thesis proposal",
+  "title": "Tangible Input Devices for Introductory Digital Fabrication",
+  "role": "committee member",
+  "student": "Ben Leduc-Mills"
+ },
+ {
+  "year": "2012",
+  "type": "PhD thesis proposal",
+  "title": "Visual Odometry with minimally overlapped trinocular cameras",
+  "role": "committee member",
+  "student": "Jaeheon Jeong"
+ },
+ {
+  "year": "2012",
+  "type": "PhD thesis defense",
+  "title": "Easigami: Virtual Creation by Physical Folding",
+  "role": "committee member",
+  "student": "Yingdan Huang"
+ },
+ {
+  "year": "2012",
+  "type": "MS thesis defense",
+  "title": "Face Detection Using Single Cascade of Customized Feature Discriminators",
+  "role": "committee member",
+  "student": "Ayman O Hammuda "
+ },
+ {
+  "year": "2012",
+  "type": "PhD thesis defense",
+  "title": "Feature Extraction in Sequential Multimedia Images: with Applications in Satellite Images and On-line Videos",
+  "role": "committee member",
+  "student": "Yu-Li Liang"
  }
 ]

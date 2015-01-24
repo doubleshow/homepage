@@ -221,10 +221,43 @@
    "Katharina Reinecke",
    " Tom Yeh, Luke Miratrix, Rahmatri Mardiko, Yuechen Zhao, Jenny Liu, Krzysztof Z. Gajos"
   ],
-  "title": "Predicting Users' First Impressions of Website Aesthetics With a Quantification of Perceived Visual Complexity and Colorfulness\", Human Factors in Computing Systems",
+  "title": "Predicting Users' First Impressions of Website Aesthetics With a Quantification of Perceived Visual Complexity and Colorfulness",
   "venue": "CHI",
   "type": "Full Paper",
   "award": "Honorable Mention",
   "url": "http://dl.acm.org/citation.cfm?id=2481281"
+ },
+ {
+  "year": "2013",
+  "authors": [
+   "Paul Givens",
+   " Aleksandar Chakarov, Sriram Sankaranarayanan, Tom Yeh"
+  ],
+  "title": "Exploring the internal state of user interfaces by combining computer vision techniques with grammatical inference",
+  "venue": "ICSE",
+  "type": "Short Paper",
+  "url": "http://dl.acm.org/citation.cfm?id=2486951"
+ },
+ {
+  "year": "2013",
+  "authors": [
+   "Vishal Patel",
+   " Tom Yeh, Mohammed Salem, Yangmuzi Zhang, Yan Chen, Rama Chellappa, Larry Davis"
+  ],
+  "title": "Screen Fingerprints: A Novel Modality for Active Authentication",
+  "venue": "IT Professional",
+  "type": "Journal",
+  "url": "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6559984"
+ },
+ {
+  "year": "2012",
+  "authors": [
+   "Jose San Pedro",
+   " Tom Yeh, Nuria Oliver"
+  ],
+  "title": "Leveraging user comments for aesthetic aware image search reranking",
+  "venue": "WWW",
+  "type": "Full Paper",
+  "url": "http://dl.acm.org/citation.cfm?id=2187896"
  }
 ]

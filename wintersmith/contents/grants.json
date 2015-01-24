@@ -86,5 +86,13 @@
   "program": "VOSS",
   "start": "2012",
   "end": "2014"
+ },
+ {
+  "role": "PI",
+  "title": "Teaching Blind High School Students Programming via a Guessing Game",
+  "source": "NSF",
+  "program": "AccessComputing Mini-Grant",
+  "start": "2013",
+  "end": "2014"
  }
 ]

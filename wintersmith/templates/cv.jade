@@ -62,6 +62,8 @@ html
                   a(href=pub.url)= pub.title
                 else
                   = pub.title
+              if pub.award
+              div.label.label-warning= pub.award
               div= pub.authors.join(',')  
               br
 
@@ -77,13 +79,16 @@ html
 
     section#blog
       .container        
-        h1 Service
+        h1 Professional Services
         for service in contents['service.json'].metadata
           div.row
             div.col-md-1= service.year
-            div.col-md-1= service.organization
             div.col-md-2= service.role
-            div.col-md-4= service.area       
+            div.col-md-3= service.organization            
+            div.col-md-4= service.area    
+              if service.count
+                = ' (' + service.count + ' times)'
+
 
 
     section#blog
@@ -92,11 +97,12 @@ html
         for item in contents['teaching.json'].metadata
           div.row
             div.col-md-1= item.year
-            div.col-md-3= item.type
+            div.col-md-2= item.type
               br
               div.label.label-default= item.student            
+            div.col-md-2= item.role
             div.col-md-7= item.title
-            div.col-md-1= item.role
+            
 
     section#blog
       .container        
