@@ -73,8 +73,9 @@ html
         for grant in contents['grants.json'].metadata
           div.row
             div.col-md-2= grant.start + '-' + grant.end
+            div.col-md-1= grant.role
             div.col-md-1= grant.source
-            div.col-md-3= grant.program
+            div.col-md-2= grant.program
             div.col-md-6= grant.title  
 
     section#blog
