@@ -1,5 +1,26 @@
 [
  {
+  "year": "2015",
+  "authors": [
+   "Jeeeun Kim",
+   " Tom Yeh"
+  ],
+  "title": "Toward 3D-Printed Movable Tactile Pictures for Children with Visual Impairments",
+  "venue": "CHI",
+  "type": "Full Paper"
+ },
+ {
+  "year": "2015",
+  "authors": [
+   "Jeeeun Kim",
+   " Hyunjoo Oh",
+   " Tom Yeh"
+  ],
+  "title": "A Study to Empower Children to Design Movable Tactile Pictures for Children with Visual Impairments",
+  "venue": "TEI",
+  "type": "Work-in-Progress"
+ },
+ {
   "year": "2014",
   "authors": [
    "Jeeeun Kim",
@@ -147,26 +168,5 @@
   "venue": "ECSM",
   "type": "Full Paper",
   "venueFull": "European Conference on Social Media"
- },
- {
-  "year": "2015",
-  "authors": [
-   "Jeeeun Kim",
-   " Tom Yeh"
-  ],
-  "title": "Toward 3D-Printed Movable Tactile Pictures for Children with Visual Impairments",
-  "venue": "CHI",
-  "type": "Full Paper"
- },
- {
-  "year": "2015",
-  "authors": [
-   "Jeeeun Kim",
-   " Hyunjoo Oh",
-   " Tom Yeh"
-  ],
-  "title": "A Study to Empower Children to Design Movable Tactile Pictures for Children with Visual Impairments",
-  "venue": "TEI",
-  "type": "Work-in-Progress"
  }
 ]

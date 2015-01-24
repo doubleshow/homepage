@@ -1,21 +1,30 @@
-[{
-    "years": "2009-2012",
-    "name": "Postdoc",
-    "org": "University of Maryland at College Park"
-}, 
-{
-    "years": "2005-2009",
-    "name": "Ph.D. Computer Science",
-    "org": "MIT"
-},
-{
-    "years": "2003-2005",
-    "name": "M.S. Computer Science",
-    "org": "MIT"
-},
-{
-    "years": "1997-2001",
-    "name": "B.Sc. Computer Science",
-    "org": "Simon Fraser University"
-}
+[
+ {
+  "start": "2009",
+  "end": "2012",
+  "name": "PostDoc",
+  "org": "University of Maryland College Park",
+  "city": "College Park"
+ },
+ {
+  "start": "2005",
+  "end": "2009",
+  "name": "PhD Computer Science",
+  "org": "MIT",
+  "city": "Boston"
+ },
+ {
+  "start": "2003",
+  "end": "2005",
+  "name": "MS Computer Science",
+  "org": "MIT",
+  "city": "Boston"
+ },
+ {
+  "start": "1997",
+  "end": "2001",
+  "name": "BSc Computer Science",
+  "org": "Simon Fraser University",
+  "city": "Burnaby"
+ }
 ]

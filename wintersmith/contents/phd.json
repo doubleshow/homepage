@@ -1,0 +1,38 @@
+[
+ {
+  "start": "2013",
+  "name": "Khalid Alharbi",
+  "department": "Computer Science",
+  "status": "proposal"
+ },
+ {
+  "start": "2013",
+  "name": "Abigale Stangl",
+  "department": "ATLAS",
+  "status": "proposal"
+ },
+ {
+  "start": "2013",
+  "name": "Jeeeun Kim",
+  "department": "Computer Science",
+  "status": "proposal"
+ },
+ {
+  "start": "2014",
+  "name": "Mike Skirpan",
+  "department": "Computer Science",
+  "status": "course work"
+ },
+ {
+  "start": "2014",
+  "name": "Jackie Cameron",
+  "department": "ATLAS",
+  "status": "course work"
+ },
+ {
+  "start": "2015",
+  "name": "Layne Hubbard",
+  "department": "Computer Science",
+  "status": "incoming"
+ }
+]

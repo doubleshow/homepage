@@ -1,0 +1,135 @@
+[
+ {
+  "year": "2015",
+  "type": "senior thesis",
+  "title": "TBD",
+  "role": "advisor",
+  "student": "Emily Bertelson"
+ },
+ {
+  "year": "2015",
+  "type": "senior thesis",
+  "title": "TBD",
+  "role": "advisor",
+  "student": "Michael Aaron"
+ },
+ {
+  "year": "2015",
+  "type": "senior thesis",
+  "title": "TBD",
+  "role": "committee member",
+  "student": "Ross Michael Holland"
+ },
+ {
+  "year": "2015",
+  "type": "course",
+  "title": "User-Centered Design and Development II",
+  "role": "instructor",
+  "student": "29"
+ },
+ {
+  "year": "2014",
+  "type": "course",
+  "title": "HCC Big Data",
+  "role": "instructor",
+  "student": "23"
+ },
+ {
+  "year": "2014",
+  "type": "course",
+  "title": "Rapid Prototyping",
+  "role": "instructor",
+  "student": "32"
+ },
+ {
+  "year": "2014",
+  "type": "senior thesis",
+  "title": "Applications of Graph Technology to Digital Content Recommendation",
+  "role": "committee member",
+  "student": "Devon Tivona"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis proposal",
+  "title": "Characterization of User Behavior in Social Networks to Better Understand Cyberbullying",
+  "role": "committee member",
+  "student": "Homa Hosseinmardi"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis proposal",
+  "title": "Study and Analysis of Emotions in Online Social Networks and Smartphones",
+  "role": "committee member",
+  "student": "Mahnaz Roshanaei"
+ },
+ {
+  "year": "2014",
+  "type": "MS thesis defense",
+  "title": "Cognitive Demand of Engineering Information",
+  "role": "committee member",
+  "student": "John Brendan Sweany"
+ },
+ {
+  "year": "2014",
+  "type": "PhD prelim",
+  "title": "Web accessibility for Cognition",
+  "role": "committee member",
+  "student": "Redhwan Nour"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis defense",
+  "title": "Precise Assembly of Truss Structures by Distributed Robots",
+  "role": "committee member",
+  "student": "Erik Komendera"
+ },
+ {
+  "year": "2014",
+  "type": "MS thesis defense",
+  "title": "Crowd Dynamics of Athletic Events",
+  "role": "committee member",
+  "student": "Kelvin Andrew Kosbab"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis proposal",
+  "title": "Simplifying the Web Experience for People with Cognitive Disabilities",
+  "role": "committee member",
+  "student": "Jeff Hoehl"
+ },
+ {
+  "year": "2014",
+  "type": "independent study",
+  "title": "Integrating Arduino with 3D-printed Tactile Picture Books",
+  "role": "advisor",
+  "student": "Thomas Michael Erickson"
+ },
+ {
+  "year": "2014",
+  "type": "MS thesis",
+  "title": "Multimodal frustration detection on smartphones",
+  "role": "advisor",
+  "student": "Esther Vasiete Allas"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis defense",
+  "title": "Building inhabitant feedback: Creating a reflective practice for environmental design using activity theory",
+  "role": "committee member",
+  "student": "Dara Cunningham"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis proposal",
+  "title": "Health Craft: Towards Helping Children Craft Personal Health Technologies",
+  "role": "committee member",
+  "student": "Swamy Ananthanarayan"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis defense",
+  "title": "Computational Thinking Pattern Analysis: A Phenomenological Approach To Compute Computational Thinking",
+  "role": "committee member",
+  "student": "Kyu Han Koh"
+ }
+]

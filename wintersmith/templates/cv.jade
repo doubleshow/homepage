@@ -9,6 +9,43 @@ html
     link(href='booom/css/custom.css', rel='stylesheet')
     
   body#home
+
+    section
+      .container        
+        h1 Tom Yeh        
+        h5 Department of Computer Science
+        h5 University of Colorado Boulder
+        div Boulder, CO 80309-0430
+
+    section#blog
+      .container        
+        h1 Education
+        for item in contents['education.json'].metadata
+          div.row
+            div.col-md-2= item.start + '-' + item.end           
+            div.col-md-3= item.name
+            div.col-md-4= item.org
+
+    section#blog
+      .container        
+        h1 PhD Stduents
+        for item in contents['phd.json'].metadata
+          div.row
+            div.col-md-1= item.start
+            div.col-md-3= item.name
+            div.col-md-4= item.department
+            div.col-md-2= item.status
+
+    section#blog
+      .container        
+        h1 Awards
+        for item in contents['awards.json'].metadata
+          div.row
+            div.col-md-1= item.year
+            div.col-md-2= item.source
+            div.col-md-4= item.title
+            div.col-md-5= item.description
+
     section#blog
       .container        
         h1 Publications
@@ -16,10 +53,12 @@ html
           div.row
             div.col-md-1= pub.year              
             div.col-md-2= pub.venue
-            div.col-md-2= pub.type
-            div.col-md-7
+              br
+              div.label.label-default= pub.type
+            div.col-md-9  
               h6= pub.title
-              div= pub.authors.join(',')
+              div= pub.authors.join(',')  
+              br
 
     section#blog
       .container        
@@ -27,6 +66,30 @@ html
         for grant in contents['grants.json'].metadata
           div.row
             div.col-md-2= grant.start + '-' + grant.end
-            div.col-md-2= grant.source
-            div.col-md-2= grant.program
-            div.col-md-6= grant.title            
+            div.col-md-1= grant.source
+            div.col-md-3= grant.program
+            div.col-md-6= grant.title  
+
+    section#blog
+      .container        
+        h1 Service
+        for service in contents['service.json'].metadata
+          div.row
+            div.col-md-1= service.year
+            div.col-md-1= service.organization
+            div.col-md-2= service.role
+            div.col-md-4= service.area       
+
+
+    section#blog
+      .container        
+        h1 Teaching
+        for item in contents['teaching.json'].metadata
+          div.row
+            div.col-md-1= item.year
+            div.col-md-3= item.type
+              br
+              div.label.label-default= item.student            
+            div.col-md-7= item.title
+            div.col-md-1= item.role
+
