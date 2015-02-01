@@ -5,7 +5,10 @@
   "source": "NSF",
   "program": "CAREER",
   "start": "2015",
-  "end": "2020"
+  "end": "2020",
+  "awarded": "549999",
+  "mine": "549999",
+  "status": "awarded"
  },
  {
   "role": "Co-PI",
@@ -13,7 +16,10 @@
   "source": "NSF",
   "program": "AISL",
   "start": "2015",
-  "end": "2018"
+  "end": "2018",
+  "awarded": "306516",
+  "mine": "306516",
+  "status": "awarded"
  },
  {
   "role": "Co-PI",
@@ -21,7 +27,10 @@
   "source": "DARPA",
   "program": "MUSE",
   "start": "2014",
-  "end": "2018"
+  "end": "2018",
+  "awarded": "1599343",
+  "mine": "319865",
+  "status": "awarded"
  },
  {
   "role": "PI",
@@ -29,7 +38,10 @@
   "source": "NSF",
   "program": "EAGER",
   "start": "2014",
-  "end": "2015"
+  "end": "2015",
+  "awarded": "39999",
+  "mine": "39999",
+  "status": "awarded"
  },
  {
   "role": "PI",
@@ -37,7 +49,10 @@
   "source": "CU",
   "program": "President's Fund for the Humanities",
   "start": "2014",
-  "end": "2015"
+  "end": "2015",
+  "awarded": "3000",
+  "mine": "39999",
+  "status": "awarded"
  },
  {
   "role": "PI",
@@ -45,7 +60,10 @@
   "source": "CU",
   "program": "Outreach Award",
   "start": "2013",
-  "end": "2014"
+  "end": "2014",
+  "awarded": "8000",
+  "mine": "8000",
+  "status": "awarded"
  },
  {
   "role": "Co-PI",
@@ -53,7 +71,10 @@
   "source": "DARPA",
   "program": "APAC",
   "start": "2013",
-  "end": "2015"
+  "end": "2015",
+  "awarded": "483734",
+  "mine": "202774",
+  "status": "awarded"
  },
  {
   "role": "PI",
@@ -61,7 +82,10 @@
   "source": "CU",
   "program": "ATLAS Mini-Grant",
   "start": "2014",
-  "end": "2015"
+  "end": "2015",
+  "awarded": "8000",
+  "mine": "8000",
+  "status": "awarded"
  },
  {
   "role": "PI",
@@ -69,7 +93,10 @@
   "source": "CU",
   "program": "Diversity and Excellence Grant",
   "start": "2012",
-  "end": "2013"
+  "end": "2013",
+  "awarded": "3000",
+  "mine": "3000",
+  "status": "awarded"
  },
  {
   "role": "Co-PI",
@@ -77,7 +104,10 @@
   "source": "DARPA",
   "program": "Active Authentication",
   "start": "2012",
-  "end": "2014"
+  "end": "2014",
+  "awarded": "1000000",
+  "mine": "225000",
+  "status": "awarded"
  },
  {
   "role": "Co-PI",
@@ -85,7 +115,10 @@
   "source": "NSF",
   "program": "VOSS",
   "start": "2012",
-  "end": "2014"
+  "end": "2014",
+  "awarded": "399874",
+  "mine": "46168",
+  "status": "awarded"
  },
  {
   "role": "PI",
@@ -93,6 +126,135 @@
   "source": "NSF",
   "program": "AccessComputing Mini-Grant",
   "start": "2013",
-  "end": "2014"
+  "end": "2014",
+  "awarded": "5000",
+  "mine": "5000",
+  "status": "awarded"
+ },
+ {
+  "role": "PI",
+  "title": "Collaborative Research: MultiNets - Designing Crowdsourcing Platforms to Scaffold Collaborative Learning for Students Solving Complex Problems",
+  "source": "NSF",
+  "program": "DIP",
+  "requested": "369643",
+  "status": "declined",
+  "submitted": "2014"
+ },
+ {
+  "role": "PI",
+  "title": "Small: Collaborative Research: Learning From Crowd-sourcing: A Cyber-Human System for Improving the Quality of Citizen Science",
+  "source": "NSF",
+  "program": "CHS",
+  "requested": "140293",
+  "status": "declined",
+  "submitted": "2014"
+ },
+ {
+  "role": "PI",
+  "title": "Interpreting Basic Concept Diagrams for Preschool Children with Visual Impairment",
+  "source": "Allen Foundation",
+  "program": "Diagram",
+  "requested": "1309214",
+  "status": "declined",
+  "submitted": "2014"
+ },
+ {
+  "role": "PI",
+  "title": "3D Printed Children’s Books for Blind Children",
+  "source": "Knight Foundation",
+  "program": "Libraries for the Future",
+  "requested": "465000",
+  "status": "declined",
+  "submitted": "2014"
+ },
+ {
+  "role": "PI",
+  "title": "Collecting and Mining Revision Histories in Google Drive to Support Find-grained Learning Analytics",
+  "source": "Google",
+  "program": "Faculty Award",
+  "requested": "55000",
+  "status": "declined",
+  "submitted": "2014"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Developing an eHealth Tutorial for Older Adults to Use Online Health Resources",
+  "source": "NIH",
+  "program": "R21",
+  "requested": "99323",
+  "status": "declined",
+  "submitted": "2014"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Large: Collaborative Research: Abstracting Perception and Manipulation in End-User Robot Programming for Vertical Farming Automation",
+  "source": "NSF",
+  "program": "NRI",
+  "requested": "655639",
+  "status": "declined",
+  "submitted": "2013"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Small: Collaborative Research: Crowdsourcing design for citizen science: Quantifying the effect of diverse perspectives on collective creativity",
+  "source": "NSF",
+  "program": "HCC",
+  "requested": "87576",
+  "status": "declined",
+  "submitted": "2013"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Medium: Collaborative Research: CrowdVision: New Ways of 'Seeing' in Disaster Events through Computer Vision & Human-Machine Computation",
+  "source": "NSF",
+  "program": "HCC",
+  "requested": "299809",
+  "status": "declined",
+  "submitted": "2012"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Small: Collaborative Research: Designing and Printing Tactile Picture Books for Preschoolers with Visual Impairments at Home",
+  "source": "NSF",
+  "program": "HCC",
+  "requested": "374951",
+  "status": "declined",
+  "submitted": "2012"
+ },
+ {
+  "role": "Co-PI",
+  "title": "NRI: Abstracting 3D Object Perception, Registration, and Manipulation Using Rokuli",
+  "source": "NSF",
+  "program": "NRI",
+  "requested": "1103179",
+  "status": "pending",
+  "submitted": "2015"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Small: Accessible 3D Design and Printing for People with Vision Impairments",
+  "source": "NSF",
+  "program": "CHS",
+  "requested": "495296",
+  "status": "pending",
+  "submitted": "2015"
+ },
+ {
+  "role": "PI",
+  "title": "VISE: Visual Interface Search Engine for Big Data Analytics",
+  "source": "DARPA",
+  "program": "XDATA",
+  "requested": "980969",
+  "status": "declined",
+  "submitted": "2012"
+ },
+ {
+  "role": "Co-PI",
+  "title": "Specialized Binary Analysis for Vetting Android Apps Using GUI Logic",
+  "source": "DARPA",
+  "program": "VET",
+  "requested": "923364",
+  "status": "declined",
+  "submitted": "2013"
  }
 ]

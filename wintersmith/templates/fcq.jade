@@ -1,0 +1,133 @@
+html
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(charset='utf-8')
+    title Tom Yeh | Assistant Professor | University of Coloardo at Boulder
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+    link(href='booom/css/main.css', rel='stylesheet')    
+    link(href='booom/css/custom.css', rel='stylesheet')
+    
+  body#home
+
+    section#blog
+      .container
+        pre
+          |=== Paper Production at CU 
+          = '\n'
+          for tier in ['high','medium','low']
+            ='\n\n'
+            = tier
+            ='\n\n'
+            for pub in contents['publications.json'].metadata
+              if pub.tier === tier
+                - var str = _.compact([pub.authors.join(','),pub.title,pub.venue,pub.acceptance,pub.year]).join(', ')
+                = '* ' + str + '\n'                
+
+          = '\n\n'
+
+
+          |=== Grants
+          = '\n'
+          for status in ['awarded','pending','declined']
+            ='\n\n'
+            = status
+            ='\n\n'
+            for item in contents['grants.json'].metadata
+              if item.status === status
+                - var str = _.compact([item.source, item.program, 'Tom Yeh (' + item.role + ')', item.title, (item.awarded || item.requested) ? 'Total: $' + (item.awarded || item.requested): undefined, item.mine ? 'My portion: $' + item.mine : undefined, item.start ? item.start + '-' + item.end : undefined]).join(', ')                
+                = '* ' + str + '\n'     
+
+          = '\n\n'
+
+
+          |=== Students (Main Advisor)
+          = '\n'
+          for degree in ['PhD','MS','BS']
+            ='\n\n'
+            = degree
+            ='\n\n'
+            for item in contents['phd.json'].metadata
+              if item.degree === degree
+                - var str = _.compact([item.name,item.status, 'since ' + item.start, 'expected or graduated in ' + item.expected]).join(', ')
+                = '* ' + str + '\n'  
+
+          = '\n\n'
+
+          |=== Course Teaching
+          = '\n'          
+          for item in contents['teaching.json'].metadata
+            if item.type === 'course'
+              - var str = _.compact([item.year, item.title, item.student + ' students']).join(', ')
+              = '* ' + str + '\n'  
+
+    
+          = '\n\n'
+
+          |=== Service
+          = '\n'          
+          for type in ['internal', 'external']
+            ='\n\n'
+            = type
+            ='\n\n'
+            for item in contents['service.json'].metadata    
+              if item.type === type        
+                - var str = _.compact([item.role, item.organization, item.area, item.count ? item.count + ' times' : undefined]).join(', ')
+                = '* ' + str + '\n'    
+
+          = '\n\n'
+
+
+          |=== PROGRAM COMMITTEES SERVED
+          | UIST        
+          | CHI
+
+          |=== DO YOU FEEL THAT PEOPLE IN HCI KNOW YOU?
+          | not enough
+          
+
+          | == What is your plan for getting to the point where people know you?          
+          | Quite some people now know about my project on 3D-printed tactile pictures.
+          | But not enough. I plan to attend more conferences, share our software, and visit places to give talks. 
+          | In particular, my group is planning to submit a few papers to ASSETS, a venue new to us but is very keen on 
+          | learning about our work.
+
+          | == Do enough of the right people know you for writing letters? You need a big net
+
+
+          |===ADVOCACY          
+          | Within CU:          
+          | Paul M. Goodrum (Civil)
+          | Stacey Forsyth (CU Science Discovery)
+          | Laura Burfield (Libary)
+          | Noah D Finkelstein (Physics)
+
+
+          | External References:
+          | * Lots community partners          
+
+
+          
+          
+
+
+    //- section#blog
+    //-   .container        
+    //-     h1 Press
+    //-     for item in contents['press.json'].metadata          
+    //-       div.row
+    //-         = '(' + item.type + ') '
+    //-         = '"' + item.title + '," '
+    //-         = item.source + ', '
+    //-         if item.country
+    //-           = item.country + ', '
+    //-         = item.date
+    //-         if item.url
+    //-           = ', ' + item.url + '' 
+
+
+
+
+
+
+

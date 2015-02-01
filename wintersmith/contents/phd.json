@@ -3,36 +3,80 @@
   "start": "2013",
   "name": "Khalid Alharbi",
   "department": "Computer Science",
-  "status": "proposal"
+  "status": "proposal",
+  "expected": "2017",
+  "degree": "PhD"
  },
  {
   "start": "2013",
   "name": "Abigale Stangl",
   "department": "ATLAS",
-  "status": "proposal"
+  "status": "proposal",
+  "expected": "2017",
+  "degree": "PhD"
  },
  {
   "start": "2013",
   "name": "Jeeeun Kim",
   "department": "Computer Science",
-  "status": "proposal"
+  "status": "proposal",
+  "expected": "2017",
+  "degree": "PhD"
  },
  {
   "start": "2014",
   "name": "Mike Skirpan",
   "department": "Computer Science",
-  "status": "course work"
+  "status": "course work",
+  "expected": "2018",
+  "degree": "PhD"
  },
  {
   "start": "2014",
   "name": "Jackie Cameron",
   "department": "ATLAS",
-  "status": "course work"
+  "status": "course work",
+  "expected": "2018",
+  "degree": "PhD"
  },
  {
   "start": "2015",
   "name": "Layne Hubbard",
   "department": "Computer Science",
-  "status": "incoming"
+  "status": "incoming",
+  "expected": "2019",
+  "degree": "PhD"
+ },
+ {
+  "start": "2014",
+  "name": "Esther Vasiete",
+  "department": "ECE",
+  "status": "thesis",
+  "expected": "2015",
+  "degree": "MS"
+ },
+ {
+  "start": "2014",
+  "name": "Erin Duggan",
+  "department": "Computer Science",
+  "status": "thesis",
+  "expected": "2015",
+  "degree": "MS"
+ },
+ {
+  "start": "2012",
+  "name": "Houman Farokhzad",
+  "department": "Computer Science",
+  "status": "graduated",
+  "expected": "2013",
+  "degree": "MS"
+ },
+ {
+  "start": "2013",
+  "name": "Emily Bertelson",
+  "department": "Computer Science",
+  "status": "thesis",
+  "expected": "2015",
+  "degree": "BS"
  }
 ]

@@ -4,47 +4,55 @@
   "role": "Panelist",
   "organization": "NSF",
   "area": "CISE",
-  "count": "3"
+  "count": "3",
+  "type": "external"
  },
  {
   "year": "2014",
   "role": "Reviewer",
-  "organization": "CHI; UIST; IUI"
+  "organization": "CHI; UIST; IUI",
+  "type": "external"
  },
  {
   "year": "2014",
   "role": "Member",
   "organization": "CS",
-  "area": "Graduate Committee"
+  "area": "Graduate Committee",
+  "type": "internal"
  },
  {
   "year": "2014",
   "role": "Member",
   "organization": "CS",
-  "area": "Faculty Search Committee"
+  "area": "Faculty Search Committee",
+  "type": "internal"
  },
  {
   "year": "2013",
   "role": "Panelist",
   "organization": "NSF",
   "area": "CISE",
-  "count": "2"
+  "count": "2",
+  "type": "external"
  },
  {
   "year": "2013",
   "role": "Reviewer",
-  "organization": "CHI; UIST; IUI"
+  "organization": "CHI; UIST; IUI",
+  "type": "external"
  },
  {
   "year": "2013",
   "role": "Member",
   "organization": "UIST",
-  "area": "Program Committee"
+  "area": "Program Committee",
+  "type": "external"
  },
  {
   "year": "2012",
   "role": "Member",
   "organization": "UIST",
-  "area": "Program Committee"
+  "area": "Program Committee",
+  "type": "external"
  }
 ]

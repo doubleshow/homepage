@@ -1,27 +1,6 @@
 [
  {
   "year": "2015",
-  "type": "senior thesis",
-  "title": "TBD",
-  "role": "advisor",
-  "student": "Emily Bertelson"
- },
- {
-  "year": "2015",
-  "type": "senior thesis",
-  "title": "TBD",
-  "role": "advisor",
-  "student": "Michael Aaron"
- },
- {
-  "year": "2015",
-  "type": "senior thesis",
-  "title": "TBD",
-  "role": "committee member",
-  "student": "Ross Michael Holland"
- },
- {
-  "year": "2015",
   "type": "course",
   "title": "User-Centered Design and Development II (Spring)",
   "role": "instructor",
@@ -49,32 +28,46 @@
   "student": "32"
  },
  {
-  "year": "2014",
-  "type": "senior thesis",
-  "title": "AcesUp: Crashing Libraries with Mocks",
-  "role": "committee member",
-  "student": "Nick Vanderweit"
+  "year": "2013",
+  "type": "course",
+  "title": "HCC Big Data (Spring)",
+  "role": "instructor",
+  "student": "15"
+ },
+ {
+  "year": "2013",
+  "type": "course",
+  "title": "HCC Big Data (Fall)",
+  "role": "instructor",
+  "student": "16"
  },
  {
   "year": "2014",
-  "type": "senior thesis",
-  "title": "Applications of Graph Technology to Digital Content Recommendation",
-  "role": "committee member",
-  "student": "Devon Tivona"
+  "type": "CREU",
+  "title": "Taxonomizing the User-Centered Design Strategies of Online Citizen Science Projects",
+  "role": "advisor",
+  "student": "Emily Bertelson; Sarah Feller"
  },
  {
   "year": "2014",
-  "type": "PhD thesis proposal",
-  "title": "Characterization of User Behavior in Social Networks to Better Understand Cyberbullying",
-  "role": "committee member",
-  "student": "Homa Hosseinmardi"
+  "type": "DLA",
+  "title": "Discovery Learning Apprenticeship",
+  "role": "advisor",
+  "student": "Ian Char; Brennan Mcconnell"
  },
  {
   "year": "2014",
-  "type": "PhD thesis proposal",
-  "title": "Study and Analysis of Emotions in Online Social Networks and Smartphones",
-  "role": "committee member",
-  "student": "Mahnaz Roshanaei"
+  "type": "independent study",
+  "title": "Integrating Arduino with 3D-printed Tactile Picture Books",
+  "role": "advisor",
+  "student": "Thomas Michael Erickson"
+ },
+ {
+  "year": "2014",
+  "type": "MS thesis",
+  "title": "Multimodal frustration detection on smartphones",
+  "role": "advisor",
+  "student": "Esther Vasiete Allas"
  },
  {
   "year": "2014",
@@ -82,6 +75,34 @@
   "title": "Cognitive Demand of Engineering Information",
   "role": "committee member",
   "student": "John Brendan Sweany"
+ },
+ {
+  "year": "2014",
+  "type": "MS thesis defense",
+  "title": "Crowd Dynamics of Athletic Events",
+  "role": "committee member",
+  "student": "Kelvin Andrew Kosbab"
+ },
+ {
+  "year": "2013",
+  "type": "MS thesis defense",
+  "title": "Synapsage: Crowd-sourced Lecture Recording using Smartphones",
+  "role": "advisor",
+  "student": "Houman Farokhzad"
+ },
+ {
+  "year": "2013",
+  "type": "MS thesis defense",
+  "title": "Using Attentional Highlighting to Train Visual Expertise",
+  "role": "committee member",
+  "student": "Brett Roads"
+ },
+ {
+  "year": "2012",
+  "type": "MS thesis defense",
+  "title": "Face Detection Using Single Cascade of Customized Feature Discriminators",
+  "role": "committee member",
+  "student": "Ayman O Hammuda "
  },
  {
   "year": "2014",
@@ -106,34 +127,6 @@
  },
  {
   "year": "2014",
-  "type": "MS thesis defense",
-  "title": "Crowd Dynamics of Athletic Events",
-  "role": "committee member",
-  "student": "Kelvin Andrew Kosbab"
- },
- {
-  "year": "2014",
-  "type": "PhD thesis proposal",
-  "title": "Simplifying the Web Experience for People with Cognitive Disabilities",
-  "role": "committee member",
-  "student": "Jeff Hoehl"
- },
- {
-  "year": "2014",
-  "type": "independent study",
-  "title": "Integrating Arduino with 3D-printed Tactile Picture Books",
-  "role": "advisor",
-  "student": "Thomas Michael Erickson"
- },
- {
-  "year": "2014",
-  "type": "MS thesis",
-  "title": "Multimodal frustration detection on smartphones",
-  "role": "advisor",
-  "student": "Esther Vasiete Allas"
- },
- {
-  "year": "2014",
   "type": "PhD thesis defense",
   "title": "Building inhabitant feedback: Creating a reflective practice for environmental design using activity theory",
   "role": "committee member",
@@ -141,45 +134,10 @@
  },
  {
   "year": "2014",
-  "type": "PhD thesis proposal",
-  "title": "Health Craft: Towards Helping Children Craft Personal Health Technologies",
-  "role": "committee member",
-  "student": "Swamy Ananthanarayan"
- },
- {
-  "year": "2014",
   "type": "PhD thesis defense",
   "title": "Computational Thinking Pattern Analysis: A Phenomenological Approach To Compute Computational Thinking",
   "role": "committee member",
   "student": "Kyu Han Koh"
- },
- {
-  "year": "2014",
-  "type": "CREU",
-  "title": "Taxonomizing the User-Centered Design Strategies of Online Citizen Science Projects",
-  "role": "advisor",
-  "student": "Emily Bertelson; Sarah Feller"
- },
- {
-  "year": "2014",
-  "type": "DLA",
-  "title": "Discovery Learning Apprenticeship",
-  "role": "advisor",
-  "student": "Ian Char; Brennan Mcconnell"
- },
- {
-  "year": "2013",
-  "type": "course",
-  "title": "HCC Big Data (Spring)",
-  "role": "instructor",
-  "student": "15"
- },
- {
-  "year": "2013",
-  "type": "course",
-  "title": "HCC Big Data (Fall)",
-  "role": "instructor",
-  "student": "16"
  },
  {
   "year": "2013",
@@ -197,17 +155,52 @@
  },
  {
   "year": "2013",
-  "type": "MS thesis defense",
-  "title": "Synapsage: Crowd-sourced Lecture Recording using Smartphones",
-  "role": "advisor",
-  "student": "Houman Farokhzad"
+  "type": "PhD thesis defense",
+  "title": "Visual Odometry with minimally overlapped trinocular cameras",
+  "role": "committee member",
+  "student": "Jaeheon Jeong"
  },
  {
-  "year": "2013",
-  "type": "MS thesis defense",
-  "title": "Using Attentional Highlighting to Train Visual Expertise",
+  "year": "2012",
+  "type": "PhD thesis defense",
+  "title": "Easigami: Virtual Creation by Physical Folding",
   "role": "committee member",
-  "student": "Brett Roads"
+  "student": "Yingdan Huang"
+ },
+ {
+  "year": "2012",
+  "type": "PhD thesis defense",
+  "title": "Feature Extraction in Sequential Multimedia Images: with Applications in Satellite Images and On-line Videos",
+  "role": "committee member",
+  "student": "Yu-Li Liang"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis proposal",
+  "title": "Characterization of User Behavior in Social Networks to Better Understand Cyberbullying",
+  "role": "committee member",
+  "student": "Homa Hosseinmardi"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis proposal",
+  "title": "Study and Analysis of Emotions in Online Social Networks and Smartphones",
+  "role": "committee member",
+  "student": "Mahnaz Roshanaei"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis proposal",
+  "title": "Simplifying the Web Experience for People with Cognitive Disabilities",
+  "role": "committee member",
+  "student": "Jeff Hoehl"
+ },
+ {
+  "year": "2014",
+  "type": "PhD thesis proposal",
+  "title": "Health Craft: Towards Helping Children Craft Personal Health Technologies",
+  "role": "committee member",
+  "student": "Swamy Ananthanarayan"
  },
  {
   "year": "2013",
@@ -215,13 +208,6 @@
   "title": "Utilizing a Socio-technical System to Foster and Support Mindfulness to Engender Persistent Pro-Environmental Behaviors",
   "role": "committee member",
   "student": "Jason Zietz"
- },
- {
-  "year": "2013",
-  "type": "PhD thesis defense",
-  "title": "Visual Odometry with minimally overlapped trinocular cameras",
-  "role": "committee member",
-  "student": "Jaeheon Jeong"
  },
  {
   "year": "2013",
@@ -238,24 +224,38 @@
   "student": "Jaeheon Jeong"
  },
  {
-  "year": "2012",
-  "type": "PhD thesis defense",
-  "title": "Easigami: Virtual Creation by Physical Folding",
-  "role": "committee member",
-  "student": "Yingdan Huang"
+  "year": "2015",
+  "type": "senior thesis",
+  "title": "TBD",
+  "role": "advisor",
+  "student": "Emily Bertelson"
  },
  {
-  "year": "2012",
-  "type": "MS thesis defense",
-  "title": "Face Detection Using Single Cascade of Customized Feature Discriminators",
-  "role": "committee member",
-  "student": "Ayman O Hammuda "
+  "year": "2015",
+  "type": "senior thesis",
+  "title": "TBD",
+  "role": "advisor",
+  "student": "Michael Aaron"
  },
  {
-  "year": "2012",
-  "type": "PhD thesis defense",
-  "title": "Feature Extraction in Sequential Multimedia Images: with Applications in Satellite Images and On-line Videos",
+  "year": "2015",
+  "type": "senior thesis",
+  "title": "TBD",
   "role": "committee member",
-  "student": "Yu-Li Liang"
+  "student": "Ross Michael Holland"
+ },
+ {
+  "year": "2014",
+  "type": "senior thesis",
+  "title": "AcesUp: Crashing Libraries with Mocks",
+  "role": "committee member",
+  "student": "Nick Vanderweit"
+ },
+ {
+  "year": "2014",
+  "type": "senior thesis",
+  "title": "Applications of Graph Technology to Digital Content Recommendation",
+  "role": "committee member",
+  "student": "Devon Tivona"
  }
 ]
