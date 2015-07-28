@@ -8,7 +8,7 @@ var src = './data/cv.xlsx'
 
 function toJson(){
 	return new through2.obj(function(chunk, enc, callback) {
-        var record = JSON.parse(chunk)        
+        var record = JSON.parse(chunk)
         callback(null, record)
     })
 }
@@ -28,51 +28,65 @@ new Parser(src, 'publications')
         fs.writeFileSync('contents/publications.json', JSON.stringify(data, null, ' '))
     }))
 
+new Parser(src, 'appointments')
+    .recordStream
+    .pipe(toJson())
+    .pipe(concat(function(data) {
+        fs.writeFileSync('contents/appointments.json', JSON.stringify(data, null, ' '))
+    }))
+
+new Parser(src, 'advising')
+    .recordStream
+    .pipe(toJson())
+    .pipe(concat(function(data) {
+        fs.writeFileSync('contents/advising.json', JSON.stringify(data, null, ' '))
+    }))
+
 new Parser(src, 'education')
     .recordStream
     .pipe(toJson())
     .pipe(concat(function(data) {
         fs.writeFileSync('contents/education.json', JSON.stringify(data, null, ' '))
-    }))    
+    }))
 
 new Parser(src, 'phd')
     .recordStream
     .pipe(toJson())
     .pipe(concat(function(data) {
         fs.writeFileSync('contents/phd.json', JSON.stringify(data, null, ' '))
-    }))      
+    }))
 
 new Parser(src, 'awards')
     .recordStream
     .pipe(toJson())
     .pipe(concat(function(data) {
         fs.writeFileSync('contents/awards.json', JSON.stringify(data, null, ' '))
-    }))  
+    }))
 
 new Parser(src, 'grants')
     .recordStream
     .pipe(toJson())
     .pipe(concat(function(data) {
         fs.writeFileSync('contents/grants.json', JSON.stringify(data, null, ' '))
-    }))    
+    }))
 
 new Parser(src, 'service')
     .recordStream
     .pipe(toJson())
     .pipe(concat(function(data) {
         fs.writeFileSync('contents/service.json', JSON.stringify(data, null, ' '))
-    }))        
+    }))
 
 new Parser(src, 'teaching')
     .recordStream
     .pipe(toJson())
     .pipe(concat(function(data) {
         fs.writeFileSync('contents/teaching.json', JSON.stringify(data, null, ' '))
-    }))            
+    }))
 
 new Parser(src, 'press')
     .recordStream
     .pipe(toJson())
     .pipe(concat(function(data) {
         fs.writeFileSync('contents/press.json', JSON.stringify(data, null, ' '))
-    })) 
+    }))

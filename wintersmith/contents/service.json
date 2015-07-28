@@ -1,5 +1,18 @@
 [
  {
+  "year": "2015",
+  "role": "Member",
+  "organization": "CS",
+  "area": "Graduate Committee",
+  "type": "internal"
+ },
+ {
+  "year": "2015",
+  "role": "Reviewer",
+  "organization": "CHI; UIST; IUI",
+  "type": "external"
+ },
+ {
   "year": "2014",
   "role": "Panelist",
   "organization": "NSF",

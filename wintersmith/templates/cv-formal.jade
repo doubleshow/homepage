@@ -1,0 +1,161 @@
+html
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+        meta(charset='utf-8')
+        title Tom Yeh | Assistant Professor | University of Coloardo at Boulder
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+        link(href='booom/css/main.css', rel='stylesheet')    
+        link(href='booom/css/custom.css', rel='stylesheet')
+        link(href='css/formal.css', rel='stylesheet')
+        
+    body#home
+
+        section.container        
+            h4 Tom Yeh    
+            div Assistant Professor
+            div Department of Computer Science
+            div University of Colorado Boulder
+            div Boulder, CO 80309-0430
+            
+        section.container        
+            h1 Education
+            .items
+                for item in contents['education.json'].metadata
+                    div.row
+                        div.col-md-3= item.name
+                        div.col-md-2= item.start + '-' + item.end                        
+                        div.col-md-4
+                            b #{item.org}
+                        div.col-md-3  #{item.city} #{item.state} #{item.country}
+
+        section.container
+            h1 Research Interests
+            .items
+                | Human-computer interaction (HCI); 3D Printing; Big Data; Mobile Security
+
+        section.container
+            h1 Academic Appointments
+            .items
+                for item in contents['appointments.json'].metadata
+                    .item
+                        div.row
+                            div.col-md-6= item.school
+                            div.col-md-6(style="text-align:right;")= item.year
+                        div.row
+                            div.col-md-12
+                                b=  item.title
+                                | , #{item.department}
+                   
+        section.container        
+            h1 Awards
+            .items
+                for item in contents['awards.json'].metadata
+                    .item
+                        div.row
+                            div.col-md-4= item.title                            
+                            div.col-md-1= item.source                            
+                            div.col-md-6= item.description
+                            div.col-md-1= item.year
+        section.container        
+            h1 Grants
+            mixin grant(item)
+                div.row
+                    div.col-md-12 #{item.source}, 
+                        | "#{item.program}: #{item.title}," $#{item.awarded}, #{item.start} - #{item.end}, 
+                        | #{item.pi} (PI)
+                        if item.copis
+                            | ; #{item.copis} (co-PIs)
+                        | .
+            .items
+                h2 PI
+                for item in contents['grants.json'].metadata
+                    .item
+                        if item.start && item.role == 'PI'
+                            +grant(item)
+                h2 Co-PI
+                for item in contents['grants.json'].metadata
+                    .item
+                        if item.start && item.role == 'Co-PI'
+                            +grant(item)
+                            
+        section.container
+            h1 Publications
+            mixin pub(item)
+                | #{item.authors.join(',')}. #{item.year}. #{item.title}. 
+                | In 
+                i 
+                    | #{item.venue}
+                    if item.venueFull
+                        |  #{item.venueFull}
+                | . 
+                if item.acceptance
+                    | Acceptance: #{item.acceptance}.
+                if item.award
+                    b  #{item.award}
+                
+            .items            
+                h2 Refereed Publications in Proceedings
+                for item in contents['publications.json'].metadata
+                    if item.type == 'Full Paper'
+                        .item                        
+                            +pub(item)
+                            
+                h2 Refereed Journal Publications
+                for item in contents['publications.json'].metadata
+                    if item.type == 'Journal'
+                        .item
+                            +pub(item)    
+
+                h2 Refereed Workshop Publications and Peer-Reviewed Short Papers 
+                for item in contents['publications.json'].metadata
+                    if item.type == 'Workshop' || item.type == 'Work-in-Progress' || item.type == 'Poster'
+                        .item
+                            +pub(item)    
+                            
+        section.container
+            h1 Advising
+            .items
+                for item in contents['advising.json'].metadata
+                    .item
+                        | #{item.student} (#{item.type}). #{item.year}.
+                        i  #{item.title}.
+                        | #{item.role}.                            
+
+        section.container
+            h1 Teaching Experience
+            .items
+                for item in contents['teaching.json'].metadata
+                    .item                        
+                        b  #{item.title}. 
+                        | #{item.year} #{item.semester}. 
+                        | #{item.school}.
+                        | (#{item.student} students).
+                        
+        section.container
+            h1 Professional Activities
+            .items
+                for item in contents['service.json'].metadata                
+                    div.row
+                        div.col-md-1= item.year
+                        div.col-md-2= item.role
+                        div.col-md-3= item.organization            
+                        div.col-md-4= item.area    
+                            if item.count
+                                = ' (' + item.count + ' times)'
+                                
+        section.container
+            h1 Press
+            .items                
+                for item in contents['press.json'].metadata
+                    .item
+                        | #{item.source}.                        
+                        i                        
+                            if item.url
+                                a(href=item.url)= item.title  
+                            else
+                                = item.title
+                        | .
+                        if item.country
+                            |  #{item.country}.
+                        |  #{item.date}.

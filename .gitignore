@@ -1,0 +1,9 @@
+node_modules
+*.log
+build
+.DS_Store
+*.new.*
+lib/three.min.js
+fonts
+dist
+~$cv.*

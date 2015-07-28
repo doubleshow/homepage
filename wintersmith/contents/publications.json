@@ -2,12 +2,39 @@
  {
   "year": "2015",
   "authors": [
+   "Abigale Stangl",
+   " Caleb Hsu",
+   " Tom Yeh"
+  ],
+  "title": "Transcribing Across the Senses: Community Efforts to Create 3D Printable Accessible Tactile Pictures for Young Children with Visual Impairments",
+  "venue": "ASSETS",
+  "type": "Full Paper",
+  "venueFull": "Proceedings of the International ACM SIGACCESS Conference on Computers and Accessibility",
+  "acceptance": "26%"
+ },
+ {
+  "year": "2015",
+  "authors": [
+   "Khalid Alharbi",
+   " Tom Yeh"
+  ],
+  "title": "Collect, Decompile, Extract, Stats, and Diff: Mining Design Pattern Changes in Android Apps",
+  "venue": "MobileHCI",
+  "type": "Full Paper",
+  "venueFull": "Proceedings of the International Conference on Human-Computer Interaction with Mobile Devices and Services Companion",
+  "award": "Honorable Mention",
+  "acceptance": "22%"
+ },
+ {
+  "year": "2015",
+  "authors": [
    "Jeeeun Kim",
    " Tom Yeh"
   ],
   "title": "Toward 3D-Printed Movable Tactile Pictures for Children with Visual Impairments",
   "venue": "CHI",
   "type": "Full Paper",
+  "venueFull": "Proceedings of the ACM Conference on Human Factors in Computing Systems ",
   "acceptance": "23%",
   "tier": "high"
  },
@@ -20,6 +47,7 @@
   "title": "Beyond the Flipped Classroom: Learning by Doing Through Challenges and Hack-a-thons",
   "venue": "SIGSCE",
   "type": "Full Paper",
+  "venueFull": "Proceedings of the ACM Technical Symposium on Computer Science Education",
   "acceptance": "38%",
   "tier": "high"
  },
@@ -202,6 +230,7 @@
   "title": "Toward a non-intrusive, physio-behavioral biometric for smartphones",
   "venue": "MobileHCI",
   "type": "Poster",
+  "venueFull": "Proceedings of the International Conference on Human-Computer Interaction with Mobile Devices and Services Companion",
   "acceptance": "48%",
   "tier": "medium",
   "url": "http://dl.acm.org/citation.cfm?doid=2628363.2634223"
@@ -288,6 +317,7 @@
   "title": "Leveraging user comments for aesthetic aware image search reranking",
   "venue": "WWW",
   "type": "Full Paper",
+  "venueFull": "Proceedings of the International World Wide Web Conference",
   "acceptance": "12%",
   "tier": "high",
   "url": "http://dl.acm.org/citation.cfm?id=2187896"

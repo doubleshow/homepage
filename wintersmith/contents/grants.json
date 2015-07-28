@@ -2,6 +2,7 @@
  {
   "role": "PI",
   "title": "Adaptive Tactile Picture Books for Blind Children during Emergent Literacy",
+  "pi": "Tom Yeh",
   "source": "NSF",
   "program": "CAREER",
   "start": "2015",
@@ -13,17 +14,21 @@
  {
   "role": "Co-PI",
   "title": "Innovations in Development: Community-Driven Projects That Adapt Technology for Environmental Learning in Nature Preserves",
+  "pi": "Jenny Preece",
+  "copis": "Mary Lou Maher; Tammy Cleggs; Tom Yeh",
   "source": "NSF",
   "program": "AISL",
   "start": "2015",
   "end": "2018",
-  "awarded": "306516",
+  "awarded": "2390552",
   "mine": "306516",
   "status": "awarded"
  },
  {
   "role": "Co-PI",
   "title": "Mining and Understanding Bug Fixes to Address Application-Framework Protocol Defects",
+  "pi": "Evan Chang",
+  "copis": "Kenneth M. Anderson; Pavol Cerny; Sriram Sankaranarayanan; Tom Yeh",
   "source": "DARPA",
   "program": "MUSE",
   "start": "2014",
@@ -33,8 +38,10 @@
   "status": "awarded"
  },
  {
-  "role": "PI",
+  "role": "Co-PI",
   "title": "Computational Model for Evaluating the Quality of Citizen Science Contributions",
+  "pi": "Mary Lou Maher",
+  "copis": "Jenny Preece; Tom Yeh",
   "source": "NSF",
   "program": "EAGER",
   "start": "2014",
@@ -46,17 +53,19 @@
  {
   "role": "PI",
   "title": "Public Tactile Art on Campus: Integrating Art and Engineering to Promote Universal Access",
+  "pi": "Tom Yeh",
   "source": "CU",
   "program": "President's Fund for the Humanities",
   "start": "2014",
   "end": "2015",
   "awarded": "3000",
-  "mine": "39999",
+  "mine": "3000",
   "status": "awarded"
  },
  {
   "role": "PI",
   "title": "Teaching 3D Printing to the Teachers and Parents of Blind Children",
+  "pi": "Tom Yeh",
   "source": "CU",
   "program": "Outreach Award",
   "start": "2013",
@@ -68,6 +77,8 @@
  {
   "role": "Co-PI",
   "title": "Specialized Binary Analysis for Vetting Android Apps Using GUI Logic",
+  "pi": "Atif Memon",
+  "copis": "Evan Chang; Tom Yeh",
   "source": "DARPA",
   "program": "APAC",
   "start": "2013",
@@ -79,6 +90,7 @@
  {
   "role": "PI",
   "title": "Data Science for Social Good: Hackathons and Public Exhibits to Engage Students and Increase Campus Awareness",
+  "pi": "Tom Yeh",
   "source": "CU",
   "program": "ATLAS Mini-Grant",
   "start": "2014",
@@ -90,6 +102,7 @@
  {
   "role": "PI",
   "title": "Broadening Participation of Blind Students in Computer Science at CU through Scalable Game Design",
+  "pi": "Tom Yeh",
   "source": "CU",
   "program": "Diversity and Excellence Grant",
   "start": "2012",
@@ -101,6 +114,8 @@
  {
   "role": "Co-PI",
   "title": "Screen/Visual Fingerprint for Active Authentication",
+  "pi": "Rama Chellappa",
+  "copis": "Larry Davis; Tom Yeh",
   "source": "DARPA",
   "program": "Active Authentication",
   "start": "2012",
@@ -112,6 +127,8 @@
  {
   "role": "Co-PI",
   "title": "Crowdsourcing Interaction Design for Citizen Science Virtual Organizations",
+  "pi": "Mary Lou Maher",
+  "copis": "Jenny Preece; Tom Yeh",
   "source": "NSF",
   "program": "VOSS",
   "start": "2012",
@@ -123,6 +140,7 @@
  {
   "role": "PI",
   "title": "Teaching Blind High School Students Programming via a Guessing Game",
+  "pi": "Tom Yeh",
   "source": "NSF",
   "program": "AccessComputing Mini-Grant",
   "start": "2013",
