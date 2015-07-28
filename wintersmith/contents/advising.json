@@ -1,21 +1,28 @@
 [
  {
   "year": "2015",
-  "type": "senior thesis",
+  "type": "MS thesis defense",
+  "title": "UX-RULE: A Javascript Framework for Dynamic and Static Accessibility Testing of Webpages",
+  "role": "advisor",
+  "student": "Erin Duggan"
+ },
+ {
+  "year": "2015",
+  "type": "Senior thesis",
   "title": "Diff-DOM: A tool to identify and troubleshoot CSS changes to a web user interface",
   "role": "advisor",
   "student": "Emily Bertelson"
  },
  {
   "year": "2015",
-  "type": "senior thesis",
+  "type": "Senior thesis",
   "title": "Conlect: A Simple Tool for Sharing Organizational Data",
   "role": "advisor",
   "student": "Michael Aaron"
  },
  {
   "year": "2015",
-  "type": "senior thesis",
+  "type": "Senior thesis",
   "title": "GateType: A More Flexible Intertwined JavaScript Type Analysis",
   "role": "committee member",
   "student": "Ross Michael Holland"
@@ -43,7 +50,7 @@
  },
  {
   "year": "2014",
-  "type": "MS thesis",
+  "type": "MS thesis defense",
   "title": "Multimodal frustration detection on smartphones",
   "role": "advisor",
   "student": "Esther Vasiete Allas"
@@ -127,14 +134,14 @@
  },
  {
   "year": "2014",
-  "type": "senior thesis",
+  "type": "Senior thesis",
   "title": "AcesUp: Crashing Libraries with Mocks",
   "role": "committee member",
   "student": "Nick Vanderweit"
  },
  {
   "year": "2014",
-  "type": "senior thesis",
+  "type": "Senior thesis",
   "title": "Applications of Graph Technology to Digital Content Recommendation",
   "role": "committee member",
   "student": "Devon Tivona"

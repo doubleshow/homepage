@@ -6,9 +6,21 @@
   "description": "Adaptive Tactile Picture Books for Blind Children during Emergent Literacy. "
  },
  {
+  "year": "2015",
+  "title": "Best Paper Nomination",
+  "source": "MobileHCI",
+  "description": "Collect, Decompile, Extract, Stats, and Diff: Mining Design Pattern Changes in Android Apps"
+ },
+ {
   "year": "2014",
   "title": "Student Affairs Faculty of the Year",
   "source": "CU",
   "description": "The Student Affairs Faculty of the Year Award recognizes a superb faculty member that demonstrates outstanding engagement with students and contributions to the university community based on areas such as promoting diversity or fostering intellectual growth."
+ },
+ {
+  "year": "2013",
+  "title": "Best Paper Nomination",
+  "source": "CHI",
+  "description": "Predicting Users' First Impressions of Website Aesthetics With a Quantification of Perceived Visual Complexity and Colorfulness"
  }
 ]

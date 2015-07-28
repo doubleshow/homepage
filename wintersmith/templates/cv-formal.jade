@@ -115,15 +115,27 @@ html
                             
         section.container
             h1 Advising
-            .items
+            
+            mixin advising(type, role)                
+                h2 #{type} #{role}
                 for item in contents['advising.json'].metadata
-                    .item
-                        | #{item.student} (#{item.type}). #{item.year}.
-                        i  #{item.title}.
-                        | #{item.role}.                            
+                    if item.type == type && item.role == role
+                        div.row.item
+                            div.col-md-11
+                                | #{item.student}.
+                                i  #{item.title}.                                
+                            div.col-md-1
+                                |  #{item.year}
+            .items                
+                +advising('PhD thesis defense', 'committee member')
+                +advising('PhD thesis proposal', 'committee member')
+                +advising('MS thesis defense', 'advisor')
+                +advising('MS thesis defense', 'committee member')
+                +advising('Senior thesis', 'advisor')
+                +advising('Senior thesis', 'committee member')                
 
         section.container
-            h1 Teaching Experience
+            h1 Teaching Experience            
             .items
                 for item in contents['teaching.json'].metadata
                     .item                        

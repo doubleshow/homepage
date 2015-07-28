@@ -8,6 +8,13 @@
  },
  {
   "year": "2015",
+  "role": "Member",
+  "organization": "MobileHCI",
+  "area": "Program Committee",
+  "type": "external"
+ },
+ {
+  "year": "2015",
   "role": "Reviewer",
   "organization": "CHI; UIST; IUI",
   "type": "external"

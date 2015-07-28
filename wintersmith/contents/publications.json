@@ -61,6 +61,7 @@
   "title": "A Study to Empower Children to Design Movable Tactile Pictures for Children with Visual Impairments",
   "venue": "TEI",
   "type": "Work-in-Progress",
+  "venueFull": "Proceedings of the International Conference on Tangible, Embedded, and Embodied Interaction",
   "acceptance": "55%",
   "tier": "low",
   "url": "http://dl.acm.org/citation.cfm?id=2688815"
@@ -77,6 +78,7 @@
   "title": "Like This, But Better: Supporting Novices' Design and Fabrication of 3D Models Using Existing Objects",
   "venue": "iConference",
   "type": "Full Paper",
+  "venueFull": "Proceedings of the iConference",
   "tier": "medium"
  },
  {
@@ -90,6 +92,7 @@
   "title": "Tactile Picture Books for Young Children with Visual Impairment",
   "venue": "TEI",
   "type": "Work-in-Progress",
+  "venueFull": "Proceedings of the International Conference on Tangible, Embedded, and Embodied Interaction",
   "acceptance": "62%",
   "tier": "low",
   "url": "http://www.tei-conf.org/14/program/413.php"
@@ -103,6 +106,7 @@
   "title": "Android apps consistency scrutinized",
   "venue": "CHI",
   "type": "Work-in-Progress",
+  "venueFull": "Proceedings of the ACM Conference on Human Factors in Computing Systems ",
   "acceptance": "49%",
   "tier": "medium",
   "url": "http://dl.acm.org/citation.cfm?id=2559206.2581352"
@@ -144,6 +148,7 @@
   "title": "SikuliBot: Automating Physical User Interface Using Images",
   "venue": "UIST",
   "type": "Demo",
+  "venueFull": "Proceedings of the ACM symposium on User interface software and technology",
   "tier": "low",
   "url": "http://dl.acm.org/citation.cfm?id=2659110"
  },
@@ -170,6 +175,7 @@
   "title": "Technology to Support Emergent Literacy Skills in Young Children with Visual Impairments",
   "venue": "CHI",
   "type": "Work-in-Progress",
+  "venueFull": "Proceedings of the ACM Conference on Human Factors in Computing Systems ",
   "acceptance": "49%",
   "tier": "medium",
   "url": "http://dl.acm.org/citation.cfm?id=2581341"
@@ -199,6 +205,7 @@
   "title": "NatureNet: a model for crowdsourcing the design of citizen science systems",
   "venue": "CSCW",
   "type": "Poster",
+  "venueFull": "Proceedings of the ACM conference on Computer supported cooperative work",
   "tier": "low",
   "url": "http://dl.acm.org/citation.cfm?id=2556420.2556497"
  },
@@ -212,6 +219,7 @@
   "title": "3D Printed Tactile Picture Books for Children with Visual Impairments: A Design Probe",
   "venue": "IDC",
   "type": "Short Paper",
+  "venueFull": "Proceedings of the International Conference on Interaction Design and Children",
   "acceptance": "43%",
   "tier": "medium",
   "url": "http://dl.acm.org/citation.cfm?id=2610482"
@@ -276,6 +284,7 @@
   "title": "Predicting Users' First Impressions of Website Aesthetics With a Quantification of Perceived Visual Complexity and Colorfulness",
   "venue": "CHI",
   "type": "Full Paper",
+  "venueFull": "Proceedings of the ACM Conference on Human Factors in Computing Systems ",
   "award": "Honorable Mention",
   "acceptance": "20%",
   "tier": "high",
